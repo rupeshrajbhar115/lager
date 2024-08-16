@@ -1,0 +1,50 @@
+@import "../helpers/helpers.scss";
+
+.breadcrumb {
+	height: auto;
+	z-index: 2;
+	color: var(--color_white);
+	padding: 8px 15px;
+	font-size: 12px;
+	&.color_black {
+		margin: 15px 0;
+		color: #000;
+		text-transform: capitalize;
+		margin-left: var(--container_left_space);
+	}
+
+	.breadcrumb_inner {
+		display: flex;
+		// flex-wrap: nowrap;
+		flex-wrap: wrap;
+
+		.pathItem {
+			opacity: 0.5;
+			// white-space: nowrap;
+			white-space: inherit;
+			display: flex;
+			text-transform: uppercase;
+			* {
+				// color: var(--color_white) !important;
+				margin: 0 !important;
+			}
+
+			span {
+				&:nth-child(1) {
+					padding: 0 3px;
+					display: inline-block;
+				}
+			}
+
+			&:nth-last-child(1) {
+				opacity: 1;
+				margin: 0;
+				flex: 1;
+
+				* {
+					@include trimLines(1);
+				}
+			}
+		}
+	}
+}

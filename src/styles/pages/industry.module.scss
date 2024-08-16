@@ -1,0 +1,46 @@
+@import "../helpers/helpers.scss";
+
+.IndustryPage {
+	.banner {
+		position: relative;
+
+		.industry_mro {
+			background-color: #724116db;
+		}
+		.industry_oem {
+			background-color: #9f968d;
+		}
+		.banner_img {
+			width: 100%;
+		}
+		.banner_title {
+			bottom: 50px;
+			position: absolute;
+			left: var(--container_left_space);
+			h2 {
+				color: #fff;
+			}
+		}
+	}
+	.industry {
+		.industry_para_info {
+			width: 80%;
+			font-weight: 600;
+		}
+		.industry_cart_item {
+			display: flex;
+			flex-wrap: wrap;
+			grid-gap: 30px;
+			.cart_item {
+				width: 23%;
+				img {
+					width: 100%;
+				}
+				h5 {
+					font-weight: 500;
+					padding-bottom: 20px;
+				}
+			}
+		}
+	}
+}
