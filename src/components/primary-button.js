@@ -1,7 +1,7 @@
 import styles from "../styles/components/primary-button.module.scss";
 
 /** btn component */
-const PrimaryButton = ({ title, dark, light, download }) => {
+const PrimaryButton = ({ title, dark, light, download, withoutAnimaction }) => {
 	return (
 		<div className={`${styles.button} `}>
 			<p
@@ -9,11 +9,12 @@ const PrimaryButton = ({ title, dark, light, download }) => {
        ${light && styles.color_white}`}
 			>
 				<span className={`${styles.arrows_main} `}>
-					<span className={`${styles.arrow}`}>
+					<span
+						className={`${styles.arrow} ${withoutAnimaction && styles.no_animaction}`}
+					>
 						{download && <img src={download} className={`${styles.arrow}`} />}
 					</span>
 				</span>
-
 				{title}
 			</p>
 		</div>

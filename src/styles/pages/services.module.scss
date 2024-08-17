@@ -1,0 +1,106 @@
+@import "../helpers/helpers.scss";
+
+.ServicesPage {
+	position: relative;
+	.banner {
+		position: relative;
+
+		.industry_mro {
+			background-color: #724116db;
+		}
+		.industry_oem {
+			background-color: #9f968d;
+		}
+		.banner_img {
+			width: 100%;
+		}
+		.banner_title {
+			bottom: 50px;
+			position: absolute;
+			left: var(--container_left_space);
+			h2 {
+				color: #fff;
+			}
+		}
+	}
+	.services {
+		.services_para_info {
+			width: 80%;
+			font-weight: 600;
+		}
+		.services_cart_item {
+			display: flex;
+			flex-wrap: wrap;
+			grid-gap: 30px;
+			.cart_item {
+				width: 31.5%;
+				.title_btn {
+					display: flex;
+					align-items: start;
+					justify-content: space-between;
+					.btn {
+						margin-top: 20px;
+					}
+				}
+				img {
+					width: 100%;
+				}
+				h5 {
+					font-weight: 500;
+					padding-bottom: 20px;
+				}
+			}
+		}
+	}
+	.popup {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5); // Semi-transparent background
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1000;
+
+		.popup_wrapper {
+			height: 500px;
+			overflow: auto;
+			position: relative;
+			background-color: #fff; // White background for the popup content
+			padding: 20px;
+			border-radius: 8px;
+			max-width: 1000px;
+			width: 100%;
+			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+			padding: 80px;
+
+			.popup_content {
+				.close {
+					top: 30px;
+					right: 30px;
+					cursor: pointer;
+					position: absolute;
+				}
+
+				ul {
+					padding-left: 20px;
+					padding-top: 20px;
+
+					li {
+						font-size: 18px;
+						line-height: 26px;
+						font-weight: 600;
+						color: #575757;
+						padding-bottom: 10px;
+
+						&::marker {
+							color: #ff9e00;
+						}
+					}
+				}
+			}
+		}
+	}
+}

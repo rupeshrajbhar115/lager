@@ -40,6 +40,11 @@
 					background-color: #ff9e00;
 				}
 			}
+			.no_animaction {
+				&::after {
+					background-color: #fff;
+				}
+			}
 		}
 	}
 	&:hover {
