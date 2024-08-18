@@ -28,9 +28,9 @@ export default function Our() {
 					<div className={`${styles.box} toTop`} data-scroll>
 						<img src={Our1.src} className="img-responsive" alt="Our Image" />
 						<div className={`${styles.info} pt_30`}>
-							<h3 className="text_xl l_r ptb_10">OEM Solutions</h3>
+							<h3 className="text_xl l_r ptb_10">OEM solutions</h3>
 							<p className="text_reg pb_30">
-								We engineer processes, services and designing support according to the
+								We engineer processes, services and designing support tailored to the
 								requirements of our clients. We provide high-end customised services to
 								all major OEMS.
 							</p>
@@ -42,10 +42,11 @@ export default function Our() {
 					<div className={`${styles.box} toTop`} data-scroll>
 						<img src={Our2.src} className="img-responsive" alt="Our Image" />
 						<div className={`${styles.info} pt_30`}>
-							<h3 className="text_xl l_r ptb_10">MRO Solutions </h3>
+							<h3 className="text_xl l_r ptb_10">MRO solutions</h3>
 							<p className="text_reg pb_30">
-								The replacement of ball bearings is part of typical maintenance
-								schedules. We provide high-end customised services to all major MROs.
+								The replacement of bearings is part of typical maintenance schedules and
+								keeping things smooth. We provide high-end customised services to all
+								major MROs.
 							</p>
 							<a href="/industryMRO">
 								<PrimaryButton download={download_img.src} title="Know More" />

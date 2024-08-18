@@ -4,6 +4,7 @@ import ScrollOut from "scroll-out";
 
 // COMPONENTS //
 import Footer from "@/components/Footer";
+import Link from "next/link";
 import Header from "@/components/Header";
 import MetaTags from "@/components/MetaTags";
 import BreadCrumb from "../../src/components/Breadcrumb";
@@ -30,7 +31,6 @@ import BallBearings5 from "../../public/img//listing_page/ball_bearings_5.png";
 import BallBearings6 from "../../public/img//listing_page/ball_bearings_6.png";
 import BallBearings7 from "../../public/img//listing_page/ball_bearings_7.png";
 import BallBearings8 from "../../public/img//listing_page/ball_bearings_8.png";
-import Link from "next/link";
 
 // DATA //
 
@@ -79,22 +79,22 @@ export default function ProductListingPage() {
 								>
 									Industrial Bearings
 								</div>
-								<div
+								{/* <div
 									className={`${styles.tab_button} ${
 										activeTab === "tab2" ? "active_tab" : ""
 									}`}
 									onClick={() => setActiveTab("tab2")}
 								>
 									Automotive Bearings
-								</div>
-								<div
+								</div> */}
+								{/* <div
 									className={`${styles.tab_button} ${
 										activeTab === "tab3" ? "active_tab" : ""
 									}`}
 									onClick={() => setActiveTab("tab3")}
 								>
 									Oil Seals
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<h6 className={`${styles.sub_titlt} text_xl pb_50`}>
@@ -185,7 +185,7 @@ export default function ProductListingPage() {
 													</div>
 												</div>
 												{/* Accordion Item 5 */}
-												<div className="accordion-item">
+												{/* <div className="accordion-item">
 													<div className="accordion-header" onClick={() => handleToggle(4)}>
 														<h2 className={`add_dots ${activeIndex === 4 ? "active" : ""}`}>
 															High Temperature Bearings & Units
@@ -205,7 +205,7 @@ export default function ProductListingPage() {
 														<p>High-temp Radial Insert Ball Bearings</p>
 														<p>Radial Insert Ball Bearings for high speeds</p>
 													</div>
-												</div>
+												</div> */}
 												{/* Accordion Item 6 */}
 												<div className="accordion-item">
 													<div className="accordion-header" onClick={() => handleToggle(5)}>
@@ -330,14 +330,14 @@ export default function ProductListingPage() {
 														support substantial loads.
 													</p>
 												</div>
-												<div className={`${styles.btn}`}>
+												{/* <div className={`${styles.btn}`}>
 													<a>
 														<PrimaryButton
 															download={download_img.src}
 															title="Download Catalogue"
 														/>
 													</a>
-												</div>
+												</div> */}
 											</div>
 											<div className={`${styles.product_section}`}>
 												<div className={`${styles.product_box}`}>
@@ -351,19 +351,21 @@ export default function ProductListingPage() {
 													<h6>Deep Groove Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<Link href="/product/product-inside1">
-															<PrimaryButton
-																download={BtnArrow.src}
-																withoutAnimaction
-																smallarrow
-															/>
+															<a>
+																<PrimaryButton
+																	download={BtnArrow.src}
+																	withoutAnimaction
+																	smallarrow
+																/>
+															</a>
 														</Link>
-														<a>
+														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																withoutAnimaction
 																smallarrow
 															/>
-														</a>
+														</a> */}
 													</div>
 												</div>
 												<div className={`${styles.product_box}`}>
@@ -377,19 +379,21 @@ export default function ProductListingPage() {
 													<h6>Single & Double Row Angular Contact Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<Link href="/product/product-inside2">
-															<PrimaryButton
-																download={BtnArrow.src}
-																smallarrow
-																withoutAnimaction
-															/>
+															<a>
+																<PrimaryButton
+																	download={BtnArrow.src}
+																	withoutAnimaction
+																	smallarrow
+																/>
+															</a>
 														</Link>
-														<a>
+														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</a> */}
 													</div>
 												</div>
 												<div className={`${styles.product_box}`}>
@@ -403,19 +407,21 @@ export default function ProductListingPage() {
 													<h6>Spherical Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<Link href="/product/product-inside3">
-															<PrimaryButton
-																download={BtnArrow.src}
-																smallarrow
-																withoutAnimaction
-															/>
+															<a>
+																<PrimaryButton
+																	download={BtnArrow.src}
+																	withoutAnimaction
+																	smallarrow
+																/>
+															</a>
 														</Link>
-														<a>
+														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</a> */}
 													</div>
 												</div>
 												<div className={`${styles.product_box}`}>
@@ -429,19 +435,21 @@ export default function ProductListingPage() {
 													<h6>Thrust Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<Link href="/product/product-inside4">
-															<PrimaryButton
-																download={BtnArrow.src}
-																smallarrow
-																withoutAnimaction
-															/>
+															<a>
+																<PrimaryButton
+																	download={BtnArrow.src}
+																	withoutAnimaction
+																	smallarrow
+																/>
+															</a>
 														</Link>
-														<a>
+														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</a> */}
 													</div>
 												</div>
 												<div className={`${styles.product_box}`}>
@@ -455,19 +463,21 @@ export default function ProductListingPage() {
 													<h6>Super Precision Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<Link href="/product/product-inside5">
-															<PrimaryButton
-																download={BtnArrow.src}
-																smallarrow
-																withoutAnimaction
-															/>
+															<a>
+																<PrimaryButton
+																	download={BtnArrow.src}
+																	withoutAnimaction
+																	smallarrow
+																/>
+															</a>
 														</Link>
-														<a>
+														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</a> */}
 													</div>
 												</div>
 												<div className={`${styles.product_box}`}>
@@ -481,19 +491,21 @@ export default function ProductListingPage() {
 													<h6>Small and Miniature ball bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<a>
-															<PrimaryButton
-																download={BtnArrow.src}
-																smallarrow
-																withoutAnimaction
-															/>
+															<a>
+																<PrimaryButton
+																	download={BtnArrow.src}
+																	withoutAnimaction
+																	smallarrow
+																/>
+															</a>
 														</a>
-														<a>
+														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</a> */}
 													</div>
 												</div>
 												<div className={`${styles.product_box}`}>
@@ -507,19 +519,21 @@ export default function ProductListingPage() {
 													<h6>Self Aligning Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<a>
-															<PrimaryButton
-																download={BtnArrow.src}
-																smallarrow
-																withoutAnimaction
-															/>
+															<a>
+																<PrimaryButton
+																	download={BtnArrow.src}
+																	withoutAnimaction
+																	smallarrow
+																/>
+															</a>
 														</a>
-														<a>
+														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</a> */}
 													</div>
 												</div>
 												<div className={`${styles.product_box}`}>
@@ -533,19 +547,21 @@ export default function ProductListingPage() {
 													<h6>Double Row Beairngs Deep Groove Ball Beairngs </h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<a>
-															<PrimaryButton
-																download={BtnArrow.src}
-																smallarrow
-																withoutAnimaction
-															/>
+															<a>
+																<PrimaryButton
+																	download={BtnArrow.src}
+																	withoutAnimaction
+																	smallarrow
+																/>
+															</a>
 														</a>
-														<a>
+														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</a> */}
 													</div>
 												</div>
 											</div>

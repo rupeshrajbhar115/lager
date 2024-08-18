@@ -26,9 +26,9 @@ const BrochureDownload = () => {
 					</div>
 					<div className={`${styles.brochure_info} toTop`} data-scroll>
 						<h3 className="text_xl pb_30">
-							Every product at Lager is crafted for perfection with the use of German
-							technology. Here’s our product portfolio that displays an array of
-							premium ball bearings.
+							Explore our extensive portfolio, a testament to years of research and
+							innovation. Explore a variety of premium bearings, each meticulously
+							crafted to minimise resistance and keep your world moving.
 						</h3>
 						<PrimaryButton download={download_img.src} title="Download Brochure" />
 					</div>

@@ -50,7 +50,10 @@ export default function ContactPage() {
 				</div>
 				<section>
 					<div className="container">
-						<h2 className="text_xxl pb_30">Contact us</h2>
+						<h2 className="text_xxl pb_10">Get in touch</h2>
+						<p className="text_lg pb_60">
+							Contact us for any enquiry, support, feedback or friction.
+						</p>
 						<div className={`${styles.contact_section} pb_80`}>
 							<div className={`${styles.contact_info}`}>
 								<ul className="pb_40">

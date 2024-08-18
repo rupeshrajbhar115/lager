@@ -27,13 +27,13 @@ export default function Service() {
 			<div className="container">
 				<div className={`${styles.service_section}`}>
 					<div className="text_xxl pb_30 toTop" data-scroll>
-						Service Support
+						Here’s how we <br /> make things smoother
 					</div>
 					<div className={`${styles.service_btn}`}>
 						<p className={`${styles.text} toTop`} data-scroll>
-							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-							eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-							voluptua. At vero eos et
+							Experience the dynamics of German technology with hassle-free services
+							and <br />
+							360-degree support.
 						</p>
 						<div className={`${styles.btn} toTop`} data-scroll>
 							<a href="/services">

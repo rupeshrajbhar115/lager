@@ -229,7 +229,7 @@ export default function HomePage() {
 						</div>
 						<div className={`${styles.bearings_text}`}>
 							<div className={`${styles.bearings_text_1} bearings_text_1`}>
-								<p className="text_reg">Products</p>
+								{/* <p className="text_reg">Products</p> */}
 								<h2 className="text_xxl pb_10">Industrial Bearings</h2>
 								<h4 className="text_lg pb_20">
 									Best-in-class bearings for all your industrial needs.
@@ -239,7 +239,7 @@ export default function HomePage() {
 								</a>
 							</div>
 							<div className={`${styles.bearings_text_1} bearings_text_2`}>
-								<p className="text_reg">Products</p>
+								{/* <p className="text_reg">Products</p> */}
 								<h2 className="text_xxl pb_10">Automotive Bearings</h2>
 								<h4 className="text_lg pb_20">
 									Smooth movement with the excellence of German technology.
@@ -249,10 +249,10 @@ export default function HomePage() {
 								</a>
 							</div>
 							<div className={`${styles.bearings_text_1} bearings_text_3`}>
-								<p className="text_reg">Products</p>
+								{/* <p className="text_reg">Products</p> */}
 								<h2 className="text_xxl pb_10">Oil Seals</h2>
 								<h4 className="text_lg pb_20">
-									Compact solutions for high machinery performance
+									Compact solutions for high machinery performance.
 								</h4>
 								<a href="#">
 									<PrimaryButton download={download_img.src} title="Know More" />
@@ -271,12 +271,14 @@ export default function HomePage() {
 					<div className="container">
 						<div className={`${styles.text_animaction} pt_50`}>
 							<h2 className="text_xxl l_s_m text_center toTop" data-scroll>
-								Our state-of-the-art <span> German technology</span> reinforces our
-								years of experience, ropelling us towards manufacturing top-grade
-								products that make your lives smoother.
+								We love the sound of machinery humming effortlessly and things rotating
+								without friction. By leveraging years of experience, cutting-edge{" "}
+								<span>German technology</span> and state-of-the-art manufacturing
+								processes, we’ve been able to translate our love into top-gradel
+								bearings that keep your world smooth.
 							</h2>
 							<div className={`${styles.btn_section} pt_50 toTop`} data-scroll>
-								<a href="#">
+								<a href="/production">
 									<PrimaryButton download={download_img.src} title="Know More" />
 								</a>
 							</div>

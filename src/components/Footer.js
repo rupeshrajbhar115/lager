@@ -81,9 +81,9 @@ export default function Footer() {
 							<img src={insta.src} className="img-responsive" />
 							<img src={you.src} className="img-responsive" />
 						</div>
-						<div className={`${styles.logo}`}>
+						{/* <div className={`${styles.logo}`}>
 							<img src={made.src} className="img-responsive" />
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

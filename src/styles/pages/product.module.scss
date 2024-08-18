@@ -42,6 +42,11 @@
 				.btn_section {
 					display: flex;
 					grid-gap: 40px;
+					.btn {
+						&:nth-child(2) {
+							display: none;
+						}
+					}
 				}
 			}
 			.ball_bearings_img {

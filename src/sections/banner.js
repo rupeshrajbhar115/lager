@@ -9,7 +9,7 @@ import styles from "@/styles/sections/banner.module.scss";
 
 // IMAGES //
 import Down from "../../public/img/home/down.svg";
-import BannerImg from "../../public/img/industry/banner.jpg";
+import BannerImg from "../../public/img/home/bannerImg.jpeg";
 
 // UTILS //
 
@@ -48,7 +48,7 @@ export default function Banner() {
 			<div
 				className={`${styles.banner_title} color_white banner_title_animaction`}
 			>
-				Engineered for perfection
+				The Science of Smooth
 			</div>
 		</section>
 	);

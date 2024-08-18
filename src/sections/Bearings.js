@@ -27,8 +27,7 @@ export default function Bearings() {
 									Engineered for perfection
 								</div> */}
 								<p className="pt_100 text_lg toTop" data-scroll>
-									Premium solutions that enhance motion. Assisted by advanced German
-									technology for high-class personalised solutions.
+									A world where things glide effortlessly.
 								</p>
 								{/* <PrimaryButton title="Know More" /> */}
 							</div>
