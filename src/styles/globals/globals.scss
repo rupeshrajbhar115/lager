@@ -331,6 +331,83 @@ section {
 	left: var(--container_left_space);
 }
 
-// .BreadCrumb1{
+.accordion {
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+}
 
-// }
+.accordion-item {
+	padding: 10px 10px 10px 25px;
+	border-bottom: 1px solid #ccc;
+}
+
+.accordion-item:last-child {
+	border-bottom: none;
+}
+
+.accordion-header {
+	cursor: pointer;
+	display: flex;
+	// padding: 10px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordion-header h2 {
+	margin: 0;
+	font-size: 18px;
+
+	&.add_dots {
+		position: relative;
+		&::after {
+			content: "";
+			width: 18px;
+			height: 18px;
+			left: -25px;
+			top: 4px;
+			position: absolute;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-image: url(../../../public/img/production/dots.png);
+		}
+	}
+	&.active {
+		padding: 0;
+		position: relative;
+		&::after {
+			content: "";
+			width: 18px;
+			height: 18px;
+			left: -25px;
+			top: 4px;
+			position: absolute;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-image: url(../../../public/img/production/active_dot.png);
+		}
+	}
+}
+
+.accordion-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+}
+
+.accordion-content p {
+	margin: 10px 0;
+}
+
+.accordion-content.active {
+	// margin-bottom: 20px;
+	max-height: 100% !important; /* Adjust as needed based on content */
+}
+
+.active_tab {
+	color: #fff;
+	background-color: #ff9e00;
+	border: 1px solid #ff9e00 !important;
+}

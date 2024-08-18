@@ -1,0 +1,180 @@
+@import "../helpers/helpers.scss";
+
+.ProductionPage {
+	.banner {
+		position: relative;
+
+		.services_b {
+			background-color: #030409;
+		}
+
+		.banner_img {
+			width: 100%;
+		}
+		.banner_title {
+			bottom: 50px;
+			position: absolute;
+			left: var(--container_left_space);
+			h2 {
+				color: #fff;
+			}
+		}
+	}
+	.industry_para_info {
+		width: 80%;
+		font-weight: 600;
+	}
+
+	.research_dev {
+		.research_para {
+			width: 80%;
+		}
+		.research_dev_section {
+			display: flex;
+			.research_img {
+				width: 40%;
+				img {
+					height: 100%;
+					width: 100%;
+					object-fit: cover;
+				}
+			}
+			.research_info {
+				width: 60%;
+				display: flex;
+				padding: 80px 60px;
+				background-color: #ebf0f0;
+				.research_row_1 {
+					width: 50%;
+					ul {
+						padding-left: 20px;
+						padding-top: 20px;
+
+						li {
+							font-size: 18px;
+							line-height: 26px;
+							color: #575757;
+							padding-bottom: 5px;
+
+							&::marker {
+								color: #ff9e00;
+							}
+						}
+					}
+					h5 {
+						font-size: 20px;
+						line-height: 36px;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+
+	.process {
+		overflow: hidden;
+		.process_wrapper {
+			padding-left: 15px;
+			margin-left: var(--container_left_space);
+			.process_section {
+				width: 60vw;
+				display: flex !important;
+				align-items: center;
+				.process_img {
+					max-width: 510px;
+					width: 100%;
+					height: 270px;
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+				.process_info {
+					max-width: 380px;
+					width: 100%;
+					padding: 30px;
+					h5 {
+						font-weight: 500;
+					}
+					h6 {
+						font-weight: 500;
+						color: #7a7e7f;
+					}
+				}
+			}
+		}
+	}
+
+	.technology {
+		display: flex;
+		grid-gap: 30px;
+		.technology_img {
+			width: 40%;
+		}
+		.technology_info {
+			width: 60%;
+			padding-left: 20px;
+		}
+	}
+
+	.industrial {
+		background-color: #ebf0f0;
+		h2 {
+			font-size: 50px;
+			line-height: 60px;
+			font-weight: 600;
+			padding-bottom: 20px;
+		}
+		.industrial_section {
+			margin: 0 -15px;
+			.CardItem {
+				width: 264px !important;
+				position: relative;
+				margin: 15px;
+				overflow: hidden;
+				cursor: pointer;
+				h4 {
+					font-weight: 500;
+					line-height: 30px;
+					padding-top: 10px;
+				}
+			}
+		}
+	}
+
+	.quality {
+		.quality_section {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.quality_img {
+				width: 47%;
+				img {
+					width: 100%;
+				}
+			}
+			.quality_info {
+				width: 47%;
+				h5 {
+					font-weight: 500;
+				}
+				ul {
+					padding-left: 20px;
+					padding-top: 20px;
+
+					li {
+						font-size: 18px;
+						line-height: 26px;
+						color: #575757;
+						padding-bottom: 5px;
+
+						&::marker {
+							color: #ff9e00;
+						}
+					}
+				}
+			}
+		}
+	}
+}

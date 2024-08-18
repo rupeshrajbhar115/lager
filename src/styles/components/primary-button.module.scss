@@ -40,10 +40,17 @@
 					background-color: #ff9e00;
 				}
 			}
+
 			.no_animaction {
 				&::after {
 					background-color: #fff;
 				}
+			}
+		}
+		.small_arrow {
+			img {
+				width: 36px !important;
+				height: 36px !important;
 			}
 		}
 	}
