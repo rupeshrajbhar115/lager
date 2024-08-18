@@ -30,6 +30,7 @@ import BallBearings5 from "../../public/img//listing_page/ball_bearings_5.png";
 import BallBearings6 from "../../public/img//listing_page/ball_bearings_6.png";
 import BallBearings7 from "../../public/img//listing_page/ball_bearings_7.png";
 import BallBearings8 from "../../public/img//listing_page/ball_bearings_8.png";
+import Link from "next/link";
 
 // DATA //
 
@@ -349,13 +350,13 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Deep Groove Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a href="/product/product-inside1">
+														<Link href="/product/product-inside1">
 															<PrimaryButton
 																download={BtnArrow.src}
 																withoutAnimaction
 																smallarrow
 															/>
-														</a>
+														</Link>
 														<a>
 															<PrimaryButton
 																download={download_img.src}
@@ -375,13 +376,13 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Single & Double Row Angular Contact Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a href="/product/product-inside2">
+														<Link href="/product/product-inside2">
 															<PrimaryButton
 																download={BtnArrow.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</Link>
 														<a>
 															<PrimaryButton
 																download={download_img.src}
@@ -401,13 +402,13 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Spherical Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a href="/product/product-inside3">
+														<Link href="/product/product-inside3">
 															<PrimaryButton
 																download={BtnArrow.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</Link>
 														<a>
 															<PrimaryButton
 																download={download_img.src}
@@ -427,13 +428,13 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Thrust Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a href="/product/product-inside4">
+														<Link href="/product/product-inside4">
 															<PrimaryButton
 																download={BtnArrow.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</Link>
 														<a>
 															<PrimaryButton
 																download={download_img.src}
@@ -453,13 +454,13 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Super Precision Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a href="/product/product-inside5">
+														<Link href="/product/product-inside5">
 															<PrimaryButton
 																download={BtnArrow.src}
 																smallarrow
 																withoutAnimaction
 															/>
-														</a>
+														</Link>
 														<a>
 															<PrimaryButton
 																download={download_img.src}
