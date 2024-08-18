@@ -16,7 +16,7 @@ import csml_logo from "../../public/img/csml_logo.svg";
 import mobile_logo from "../../public/img/csml_logo.svg";
 import close from "../../public/img/close.svg";
 import download_img from "../../public/img/home/download.svg";
-// import menu_down_aarow from "../../public/img/menu_down_aarow.svg";
+// import DownloadBrochure from "../../public/img/demo.pdf";
 
 /** Header Component */
 const Header = () => {
@@ -76,8 +76,8 @@ const Header = () => {
 					<div className={`${styles.header_list} ${styles.header_list_mobile}`}>
 						<div className={styles.menu_title}>
 							<div className={styles.title}>
-								<Link href="/contact">
-									<a href="#">
+								<Link href="/img/Lager-Company-Profile.pdf" download>
+									<a target="_blank">
 										<PrimaryButton
 											light
 											download={download_img.src}
@@ -120,6 +120,11 @@ const Header = () => {
 									</Link>
 								</li>
 								<li onClick={() => setSidebarActive(!sidebarActive)}>
+									<Link href="/production">
+										<a className="text_lg l_r">Production</a>
+									</Link>
+								</li>
+								<li onClick={() => setSidebarActive(!sidebarActive)}>
 									<Link href="/product/industrial-bearings">
 										<a className="text_lg l_r">Our Products</a>
 									</Link>
@@ -132,11 +137,6 @@ const Header = () => {
 								<li onClick={() => setSidebarActive(!sidebarActive)}>
 									<Link href="/services">
 										<a className="text_lg l_r">Service Support</a>
-									</Link>
-								</li>
-								<li onClick={() => setSidebarActive(!sidebarActive)}>
-									<Link href="/production">
-										<a className="text_lg l_r">Production</a>
 									</Link>
 								</li>
 								<li onClick={() => setSidebarActive(!sidebarActive)}>

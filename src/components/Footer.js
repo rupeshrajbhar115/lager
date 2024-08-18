@@ -64,7 +64,11 @@ export default function Footer() {
 							</ul>
 						</div>
 						<div className={`${styles.btn}`}>
-							<PrimaryButton download={download_img.src} title="Download Brochure" />
+							<Link href="/img/Lager-Company-Profile.pdf" download>
+								<a target="_blank">
+									<PrimaryButton download={download_img.src} title="Download Brochure" />
+								</a>
+							</Link>
 						</div>
 					</div>
 				</div>

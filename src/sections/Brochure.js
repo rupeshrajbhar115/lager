@@ -30,7 +30,11 @@ const BrochureDownload = () => {
 							innovation. Explore a variety of premium bearings, each meticulously
 							crafted to minimise resistance and keep your world moving.
 						</h3>
-						<PrimaryButton download={download_img.src} title="Download Brochure" />
+						<Link href="/img/Lager-Company-Profile.pdf" download>
+							<a target="_blank">
+								<PrimaryButton download={download_img.src} title="Download Brochure" />
+							</a>
+						</Link>
 					</div>
 				</div>
 			</div>

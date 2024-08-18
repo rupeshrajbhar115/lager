@@ -165,18 +165,18 @@ export default function ProductPage() {
 						<div className={`${styles.ball_bearings_section} ptb_80`}>
 							<div className={`${styles.ball_bearings_info} toTop`} data-scroll>
 								<h5>Ball Bearings</h5>
-								<h2>Single & Double Row Angular Contact Ball Bearings</h2>
+								<h2>Angular Contact Ball Bearings </h2>
 								<p>
-									Deep groove ball bearings are the most widely used bearing type and are
-									particularly versatile. They have low friction and are optimized for
-									low noise and low vibration which enables high rotational speeds. They
-									accommodate radial and axial loads in both directions, are easy to
-									mount, and require less maintenance than other bearing types.
+									Angular contact ball bearings have inner and outer ring raceways that
+									are displaced relative to each other in the direction of the bearing
+									axis. This means that these bearings are designed to accommodate
+									combined loads, i.e. simultaneously acting radial and axial loads.
 								</p>
 								<h6>
 									Lager produces a wide range of standard and custom designs to offer
-									advantages for applications with specific performance needs. Series –
-									60, 62, 63, 64, 622, 623, 160, 618, 619.
+									advantages for applications with specific performance needs.
+									<br /> Single Row Series – 70 , 72 , 73 , 74.
+									<br /> Double Row Series – 70 , 72 , 73 , 74.
 								</h6>
 								<div className={`${styles.btn_section} pt_20`}>
 									<div className={`${styles.btn}`}>
@@ -205,34 +205,35 @@ export default function ProductPage() {
 						<div className={`${styles.features_section} toTop`} data-scroll>
 							<h2>Features</h2>
 							<p>
-								Single row deep groove ball bearings are the most frequently used
-								bearing type. They are versatile, self-retaining bearings with solid
-								outer rings, inner rings and ball and cage assemblies. Due to their low
-								frictional torque, they are suitable for high and even very high speeds
-								and are robust in operation, with little maintenance. Due to the raceway
-								geometry and the balls used as rolling elements, deep groove ball
-								bearings can support relatively high radial loads, as well as small
-								axial loads.
+								Angular contact ball bearings have raceways in the inner and outer rings
+								that are displaced with respect to each other in the direction of the
+								bearing axis. This means that they are designed to accommodate combined
+								loads, i.e. simultaneously acting radial and axial loads. The axial load
+								carrying capacity of angular contact ball bearings increases with
+								increasing contact angle. However, in any case minimal loads are
+								necessary to perform properly. The contact angle α is defined as the
+								angle between the line joining the points of contact of the ball and the
+								raceways in the radial plane, along which the load is transmitted from
+								one raceway to another, and a line perpendicular to the bearing axis.
+							</p>
+							<p>
+								Single row angular contact ball bearings can accommodate axial loads
+								acting in one direction only. The bearings are non-separable and the
+								bearing rings have one high and one low shoulder. The low shoulder
+								enables a large number of balls to be incorporated in the bearing,
+								giving it a relatively high load carrying capacity.
 							</p>
 							<ul>
 								<li>
-									It is suitable for radial and axial loads in both directions and high
-									speed conditions.
-								</li>
-								<li>Improved cover design with low friction and quiet operation.</li>
-								<li>
-									It has a longer service life thanks to its high temperature resistant
-									and long life grease.
+									It is resistant to high axial loads with special pressure angles.
 								</li>
 								<li>
-									Various seals and grease variants available for different operating
-									conditions
+									Alternative cage materials can meet all application requirements.
 								</li>
-								<li>
-									Numerous clearance and tolerance classes available for different
-									operating conditions
-								</li>
-								<li>Standard: DIN 625 </li>
+								<li>Able to accommodate both radial and thrust loads</li>
+								<li>Suitable for high speed operation</li>
+								<li>Open and sealed versions available</li>
+								<li>Highly rigid</li>
 							</ul>
 						</div>
 					</div>

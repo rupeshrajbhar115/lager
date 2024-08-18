@@ -329,6 +329,7 @@ export default function ProductListingPage() {
 														As a rule, ball bearings can rotate very quickly but cannot
 														support substantial loads.
 													</p>
+													production{" "}
 												</div>
 												{/* <div className={`${styles.btn}`}>
 													<a>
@@ -544,7 +545,7 @@ export default function ProductListingPage() {
 															alt="BallBearings1"
 														/>
 													</div>
-													<h6>Double Row Beairngs Deep Groove Ball Beairngs </h6>
+													<h6>Double Row Deep Groove Ball Beairngs </h6>
 													<div className={`${styles.btn_section} pt_20`}>
 														<a>
 															<a>
