@@ -37,12 +37,12 @@ export default function Footer() {
 						<div className={`${styles.page_name}`}>
 							<ul>
 								<li>
-									<Link href="" className="text_reg l_r">
+									<Link href="/about" className="text_reg l_r">
 										About Us
 									</Link>
 								</li>
 								<li>
-									<Link href="/product" className="text_reg l_r">
+									<Link href="/product/industrial-bearings" className="text_reg l_r">
 										Our Products
 									</Link>
 								</li>
@@ -52,8 +52,13 @@ export default function Footer() {
 									</Link>
 								</li>
 								<li>
-									<Link href="" className="text_reg l_r">
+									<Link href="/services" className="text_reg l_r">
 										Service Support
+									</Link>
+								</li>
+								<li>
+									<Link href="/services" className="text_reg l_r">
+										Contact US
 									</Link>
 								</li>
 							</ul>

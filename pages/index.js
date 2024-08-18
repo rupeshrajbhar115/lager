@@ -125,7 +125,7 @@ export default function HomePage() {
 		const bearingsCircleAnimation = gsap.timeline();
 		gsap.set(".bearings_img:nth-child(1)", { opacity: 1 });
 		gsap.set(".bearings_img:nth-child(2)", { opacity: 0 });
-		gsap.set(".bearings_img:nth-child(3)", { opacity: 0 });
+		// gsap.set(".bearings_img:nth-child(3)", { opacity: 0 });
 
 		// Animation sequence
 		bearingsCircleAnimation
@@ -145,18 +145,18 @@ export default function HomePage() {
 			) // Adjust this overlap for smooth transition
 			.to(".bearings_img:nth-child(2)", {
 				rotation: 60,
-				opacity: 0,
+				opacity: 1,
 				duration: 2,
-			})
-			.to(
-				".bearings_img:nth-child(3)",
-				{
-					rotation: 60,
-					opacity: 1,
-					duration: 1,
-				},
-				"-=1.5"
-			); // Adjust this overlap for smooth transition
+			});
+		// .to(
+		// 	".bearings_img:nth-child(3)",
+		// 	{
+		// 		rotation: 60,
+		// 		opacity: 1,
+		// 		duration: 1,
+		// 	},
+		// 	"-=1.5"
+		// ); // Adjust this overlap for smooth transition
 
 		// ScrollTrigger for the animation
 		ScrollTrigger.create({

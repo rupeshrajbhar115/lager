@@ -142,7 +142,12 @@ export default function ProductListingPage() {
 															activeIndex === 1 ? "active" : ""
 														}`}
 													>
-														<p>This is the content for Section 2.</p>
+														<p>Spherical Roller Bearings</p>
+														<p>Cylindrical Roller Bearings</p>
+														<p>Tapered Roller Bearings</p>
+														<p>Super Precision Roller Bearings</p>
+														<p>Thrust Roller Bearings</p>
+														<p>Needle Roller Bearings</p>
 													</div>
 												</div>
 
@@ -158,7 +163,157 @@ export default function ProductListingPage() {
 															activeIndex === 2 ? "active" : ""
 														}`}
 													>
-														<p>This is the content for Section 3.</p>
+														<p>Radial Insert beairngs</p>
+														<p>Radial Insert Block Units</p>
+													</div>
+												</div>
+												{/* Accordion Item 4 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(3)}>
+														<h2 className={`add_dots ${activeIndex === 3 ? "active" : ""}`}>
+															Stainless steel Ball bearings units
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 3 ? "active" : ""
+														}`}
+													>
+														<p>Stainless Steel radial insert ball bearings</p>
+														<p>Stainless steel radial insert Units</p>
+													</div>
+												</div>
+												{/* Accordion Item 5 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(4)}>
+														<h2 className={`add_dots ${activeIndex === 4 ? "active" : ""}`}>
+															High Temperature Bearings & Units
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 4 ? "active" : ""
+														}`}
+													>
+														<p>High-temp Deep Groove Ball Bearings</p>
+														<p>Deep Groove Ball Bearings for high speeds</p>
+														<p>Stainless Steel Deep Groove Ball Bearings</p>
+														<p>Stainless Steel Thin Section Ball Bearings</p>
+														<p>Open Spherical Roller Bearings</p>
+														<p>Sealed Spherical Roller Bearings</p>
+														<p>High-temp Radial Insert Ball Bearings</p>
+														<p>Radial Insert Ball Bearings for high speeds</p>
+													</div>
+												</div>
+												{/* Accordion Item 6 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(5)}>
+														<h2 className={`add_dots ${activeIndex === 5 ? "active" : ""}`}>
+															Linear Bearings
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 5 ? "active" : ""
+														}`}
+													>
+														<p>Ballscrew Bearing</p>
+														<p>Crossed Roller Bearing CRB Standard Type</p>
+														<p>CRB Thin type Crossed Roller Bearing</p>
+														<p>Linear Bearing</p>
+														<p>Support Unit</p>
+													</div>
+												</div>
+												{/* Accordion Item 7 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(6)}>
+														<h2 className={`add_dots ${activeIndex === 6 ? "active" : ""}`}>
+															Cam Followers / ROD Ends
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 6 ? "active" : ""
+														}`}
+													>
+														<p>Standard Cam Followers</p>
+														<p>Solid Eccentric Stud Cam Followers</p>
+														<p>Eccentric Cam Followers</p>
+														<p>Thrust Disk Cam Followers</p>
+														<p>Centralized Lubrication Cam Followers</p>
+														<p>Easy Mounting Cam Followers</p>
+														<p>C-Lube Cam Followers</p>
+														<p>Miniature Cam Followers</p>
+														<p>Miniature Cam Followers With Thrust Washers</p>
+														<p>Inch Series Cam Followers</p>
+														<p>Heavy Duty Cam Followers</p>
+														<p>C-Lube Units</p>
+													</div>
+												</div>
+												{/* Accordion Item 8 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(7)}>
+														<h2 className={`add_dots ${activeIndex === 7 ? "active" : ""}`}>
+															Linear Guideways & Rails
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 7 ? "active" : ""
+														}`}
+													>
+														<p>AG Series AG series Angle Linear Guideway</p>
+														<p>
+															CG Series Superior Rolling Moment with Cover Strip Linear
+															Guideway
+														</p>
+														<p>HG Series Heavy Load Ball Type Linear Guideway</p>
+														<p>EG Series Low Profile Ball Type Linear Guideway</p>
+														<p>WE Series Four Row Wide Rail Type Linear Guideway</p>
+														<p>MG Series Miniature Linear Guideway</p>
+														<p>RG Series High rigidity Roller Type Linear Guideway</p>
+														<p>
+															QH Series Quiet Linear Guideway, with SynchMotion Technology
+														</p>
+														<p>QE Series Quiet Linear Guideway</p>
+														<p>QW Series Wide Rail Linear Guideway</p>
+														<p>QR Series Quiet Roller Type Linear Guideway</p>
+														<p>E2 Series Self lubrication Kit for Linear Guideway</p>
+														<p>PG Series Positioning Linear Guideway</p>
+														<p>StanSE Series Metallic End Cap Linear Guidewaydard</p>
+													</div>
+												</div>
+												{/* Accordion Item 9 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(8)}>
+														<h2 className={`add_dots ${activeIndex === 8 ? "active" : ""}`}>
+															Ball Nuts & Screws
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 8 ? "active" : ""
+														}`}
+													>
+														<p>https://www.hiwin.tw</p>
+													</div>
+												</div>
+												{/* Accordion Item 10 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(9)}>
+														<h2 className={`add_dots ${activeIndex === 9 ? "active" : ""}`}>
+															Assembly & Maintenance Products
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 9 ? "active" : ""
+														}`}
+													>
+														<p>Induction Heating Devices</p>
+														<p>Bearings Fastening Sets</p>
+														<p>Greases</p>
+														<p>Spray Products</p>
 													</div>
 												</div>
 											</div>
@@ -194,7 +349,7 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Deep Groove Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a>
+														<a href="/product/product-inside1">
 															<PrimaryButton
 																download={BtnArrow.src}
 																withoutAnimaction
@@ -220,7 +375,7 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Single & Double Row Angular Contact Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a>
+														<a href="/product/product-inside2">
 															<PrimaryButton
 																download={BtnArrow.src}
 																smallarrow
@@ -246,7 +401,7 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Spherical Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a>
+														<a href="/product/product-inside3">
 															<PrimaryButton
 																download={BtnArrow.src}
 																smallarrow
@@ -272,7 +427,7 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Thrust Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a>
+														<a href="/product/product-inside4">
 															<PrimaryButton
 																download={BtnArrow.src}
 																smallarrow
@@ -298,7 +453,7 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Super Precision Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a>
+														<a href="/product/product-inside5">
 															<PrimaryButton
 																download={BtnArrow.src}
 																smallarrow

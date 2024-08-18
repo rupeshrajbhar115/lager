@@ -169,7 +169,10 @@ export default function ProductionPage() {
 				</section>
 				<section>
 					<div className="container">
-						<p className={`${styles.industry_para_info} text_xl ptb_50`}>
+						<p
+							className={`${styles.industry_para_info} text_xl ptb_50 toTop`}
+							data-scroll
+						>
 							We at Lager, maintain an in-house production process to ensure product
 							quality, manage orders flexibly, and respond promptly to customer needs.
 							Our technical department oversees each project from development,
@@ -182,8 +185,13 @@ export default function ProductionPage() {
 				<section>
 					<div className="container">
 						<div className={`${styles.research_dev}`}>
-							<h2 className="text_xxl">Research & Development</h2>
-							<p className={`${styles.research_para} text_reg pt_10`}>
+							<h2 className="text_xxl toTop" data-scroll>
+								Research & Development
+							</h2>
+							<p
+								className={`${styles.research_para} text_reg pt_10 toTop`}
+								data-scroll
+							>
 								Our state-of-the-art Technical Centre is a testament to our commitment
 								to pushing the boundaries of bearing technology. With a team of 300
 								expert engineers, weve generated over 170 patents, including 10
@@ -193,7 +201,7 @@ export default function ProductionPage() {
 								precision.
 							</p>
 							<div className={`${styles.research_dev_section} pt_40 pb_100`}>
-								<div className={`${styles.research_img}`}>
+								<div className={`${styles.research_img} toTop`} data-scroll>
 									<img
 										src={ResearchImg.src}
 										className="img-responsive"
@@ -202,8 +210,10 @@ export default function ProductionPage() {
 								</div>
 								<div className={`${styles.research_info}`}>
 									<div className={`${styles.research_row_1}`}>
-										<h5>5 Specialised Institutes</h5>
-										<ul>
+										<h5 className="toTop" data-scroll>
+											5 Specialised Institutes
+										</h5>
+										<ul className="toTop" data-scroll>
 											<li> Bearing Design</li>
 											<li> Process Research</li>
 											<li> Material Research</li>
@@ -211,22 +221,28 @@ export default function ProductionPage() {
 											<li> Application Software Research</li>
 										</ul>
 
-										<h5 className="pt_50">1 Library</h5>
-										<ul>
+										<h5 className="pt_50 toTop" data-scroll>
+											1 Library
+										</h5>
+										<ul className="toTop" data-scroll>
 											<li> Science Library</li>
 										</ul>
 									</div>
 									<div className={`${styles.research_row_1}`}>
-										<h5>4 Research Labs</h5>
-										<ul>
+										<h5 className="toTop" data-scroll>
+											4 Research Labs
+										</h5>
+										<ul className="toTop" data-scroll>
 											<li> Material Inspection</li>
 											<li> Heat Treatment Lab</li>
 											<li> Bearing Test Lab</li>
 											<li> Bearing Failure Analysis</li>
 										</ul>
 
-										<h5 className="pt_80">Advanced engineering</h5>
-										<ul>
+										<h5 className="pt_80 toTop" data-scroll>
+											Advanced engineering
+										</h5>
+										<ul className="toTop" data-scroll>
 											<li> ANSYS and Romax</li>
 										</ul>
 									</div>
@@ -237,9 +253,11 @@ export default function ProductionPage() {
 				</section>
 				<section className={`${styles.process} pb_100`}>
 					<div className="container">
-						<h2 className="text_xxl pb_40">The process</h2>
+						<h2 className="text_xxl pb_40 toTop" data-scroll>
+							The process
+						</h2>
 					</div>
-					<div className={`${styles.process_wrapper}`}>
+					<div className={`${styles.process_wrapper} toTop`} data-scroll>
 						<Slider {...settings}>
 							<div className={`${styles.process_section}`}>
 								<div className={`${styles.process_img}`}>
@@ -343,12 +361,14 @@ export default function ProductionPage() {
 				<section>
 					<div className="container">
 						<div className={`${styles.technology} pt_50 pb_100`}>
-							<div className={`${styles.technology_img}`}>
+							<div className={`${styles.technology_img} toTop`} data-scroll>
 								<img src={Technology.src} className="img-responsive" alt="Technology" />
 							</div>
-							<div className={`${styles.technology_info}`}>
-								<h2 className="text_xxl pb_20">Process technology</h2>
-								<p className="text_reg pb_10">
+							<div className={`${styles.technology_info} `}>
+								<h2 className="text_xxl pb_20 toTop" data-scroll>
+									Process technology
+								</h2>
+								<p className="text_reg pb_10 toTop" data-scroll>
 									Lager utilises advanced vertical grinding mills from Germany and Japan,
 									ensuring economic batch sizes, high machining accuracy, and component
 									interchangeability. The streamlined process enables one-clamping
@@ -359,7 +379,7 @@ export default function ProductionPage() {
 									and employ online data collection and measurement for fast,
 									energy-saving, and safe operations.
 								</p>
-								<p className="text_reg">
+								<p className="text_reg toTop" data-scroll>
 									Our enclosed and air-conditioned workshop employs oil mist dust
 									collection, promoting a clean environment. With self-processed
 									spherical, cylindrical, and tapered rollers, we prioritise security,
@@ -378,8 +398,10 @@ export default function ProductionPage() {
 					data-scroll
 				>
 					<div className="container">
-						<h2>Production equipment</h2>
-						<div className={`${styles.industrial_section}`}>
+						<h2 className="toTop" data-scroll>
+							Production equipment
+						</h2>
+						<div className={`${styles.industrial_section} toTop`} data-scroll>
 							<Slider {...settings1}>
 								<div className={`${styles.CardItem}`}>
 									<div className={`${styles.cardImg}`}>
@@ -481,20 +503,22 @@ export default function ProductionPage() {
 
 				<section className={`${styles.quality} ptb_100`}>
 					<div className="container">
-						<h2 className="text_xxl pb_10">Quality control</h2>
-						<p className="text_reg pb_40">
+						<h2 className="text_xxl pb_10 toTop" data-scroll>
+							Quality control
+						</h2>
+						<p className="text_reg pb_40 toTop" data-scroll>
 							With continuous innovation and improvement, we provide
 							<br /> customers with world-class products and value services.
 						</p>
 						<div className={`${styles.quality_section}`}>
-							<div className={`${styles.quality_img}`}>
+							<div className={`${styles.quality_img} toTop`} data-scroll>
 								<img
 									src={QualityImg1.src}
 									className="img-responsive"
 									alt="QualityImg1"
 								/>
 							</div>
-							<div className={`${styles.quality_info}`}>
+							<div className={`${styles.quality_info} toTop`} data-scroll>
 								<h5 className="text_xl pb_20">
 									Constant temperature and
 									<br /> humidity metrology room
@@ -512,7 +536,7 @@ export default function ProductionPage() {
 							</div>
 						</div>
 						<div className={`${styles.quality_section} pt_80`}>
-							<div className={`${styles.quality_info}`}>
+							<div className={`${styles.quality_info} toTop`} data-scroll>
 								<h5 className="text_xl pb_20">Self-made process control</h5>
 								<p className="text_reg">
 									Through self-inspection and self-control, we ensure that the whole
@@ -532,7 +556,7 @@ export default function ProductionPage() {
 									<li>Make improvement proposals according to the current situation.</li>
 								</ul>
 							</div>
-							<div className={`${styles.quality_img}`}>
+							<div className={`${styles.quality_img} toTop`} data-scroll>
 								<img
 									src={QualityImg2.src}
 									className="img-responsive"

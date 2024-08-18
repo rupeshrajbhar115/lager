@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 // MODULES //
 
 // COMPONENTS //
@@ -35,7 +36,7 @@ export default function Service() {
 							voluptua. At vero eos et
 						</p>
 						<div className={`${styles.btn} toTop`} data-scroll>
-							<a href="#">
+							<a href="/services">
 								<PrimaryButton download={download_img.src} title="Know More" />
 							</a>
 						</div>

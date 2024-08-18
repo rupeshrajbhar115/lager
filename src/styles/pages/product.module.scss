@@ -5,7 +5,7 @@
 		position: relative;
 		&::after {
 			content: "";
-			width: 80%;
+			width: 78%;
 			height: 100%;
 			left: 0;
 			top: 0;
@@ -17,6 +17,7 @@
 			display: flex;
 			.ball_bearings_info {
 				width: 60%;
+				padding-right: 50px;
 				h5 {
 					font-size: 18px;
 					line-height: 26px;

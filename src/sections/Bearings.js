@@ -40,9 +40,9 @@ export default function Bearings() {
 							<div className={`${styles.bearings_img} bearings_img`}>
 								<img src={bearingsAnimation2.src} className="img-responsive" />
 							</div>
-							<div className={`${styles.bearings_img} bearings_img`}>
-								<img src={bearingsAnimation3.src} className="img-responsive" />
-							</div>
+							{/* <div className={`${styles.bearings_img} bearings_img`}>
+								<img src={bearingsAnimation2.src} className="img-responsive" />
+							</div> */}
 						</div>
 					</div>
 				</div>

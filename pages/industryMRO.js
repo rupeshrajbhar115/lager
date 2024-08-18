@@ -52,40 +52,40 @@ export default function IndustryPage() {
 						<BreadCrumb breadcrumbData={breadcrumbData} />
 					</div>
 					<img src={Banner.src} className={`${styles.banner_img} img-responsive`} />
-					<div className={`${styles.banner_title}`}>
+					<div className={`${styles.banner_title} toTop`} data-scroll>
 						<h2 className="text_xxl">MRO Solutions </h2>
 					</div>
 				</section>
 				<section>
 					<div className="container">
-						<div className={`${styles.industry}`}>
+						<div className={`${styles.industry} toTop`} data-scroll>
 							<p className={`${styles.industry_para_info} text_xl ptb_50`}>
 								The replacement of ball bearings is part of typical maintenance
 								schedules and keeping things smooth. We provide high-end customised
 								services to all major MROs.
 							</p>
 							<div className={`${styles.industry_cart_item} pt_20 pb_60`}>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry1.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Energy Industry</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry2.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Mining Industry</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry3.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Steel Industry</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry4.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Sugar Industry</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry5.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Aggregate & Quarrying</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry6.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Pulp & Paper Equipment</h5>
 								</div>

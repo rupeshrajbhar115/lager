@@ -83,13 +83,16 @@ export default function ServicesPage() {
 				<section>
 					<div className="container">
 						<div className={`${styles.services}`}>
-							<p className={`${styles.services_para_info} text_xl pt_50 pb_20`}>
+							<p
+								className={`${styles.services_para_info} text_xl pt_50 pb_20 toTop`}
+								data-scroll
+							>
 								Welcome to LAGER, your ultimate destination for unrivalled technical
 								support for all your bearing needs. Our team of German engineers
 								operates within our very core, ready to tackle any technical issue you
 								may encounter.
 							</p>
-							<p className="text_reg pb_50">
+							<p className="text_reg pb_50 toTop" data-scroll>
 								We take pride in offering comprehensive training and consultancy
 								services to our valued customers. Whether its guiding you through
 								engaging bearing seminars, helping you make the right bearing
@@ -98,9 +101,11 @@ export default function ServicesPage() {
 								Additionally, our focus on lubrication techniques aims to enlighten and
 								empower bearing users, fostering greater awareness within the industry.
 							</p>
-							<h2 className="text_xxl">Categories of services</h2>
+							<h2 className="text_xxl toTop" data-scroll>
+								Categories of services
+							</h2>
 							<div className={`${styles.services_cart_item} pt_20 pb_60`}>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services1.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title_btn}`}>
 										<div className={`${styles.title}`}>
@@ -117,7 +122,7 @@ export default function ServicesPage() {
 										</div>
 									</div>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services2.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title_btn}`}>
 										<div className={`${styles.title}`}>
@@ -133,7 +138,7 @@ export default function ServicesPage() {
 										</div>
 									</div>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services3.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title_btn}`}>
 										<div className={`${styles.title}`}>
@@ -149,7 +154,7 @@ export default function ServicesPage() {
 										</div>
 									</div>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services4.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title_btn}`}>
 										<div className={`${styles.title}`}>
@@ -165,7 +170,7 @@ export default function ServicesPage() {
 										</div>
 									</div>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services5.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title_btn}`}>
 										<div className={`${styles.title}`}>
@@ -187,7 +192,7 @@ export default function ServicesPage() {
 										</div>
 									</div>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services6.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title}`}>
 										<h5 className="text_lg pt_10">
@@ -207,7 +212,7 @@ export default function ServicesPage() {
 										</h5>
 									</div>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services7.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title}`}>
 										<h5 className="text_lg pt_10">
@@ -227,7 +232,7 @@ export default function ServicesPage() {
 										</h5>
 									</div>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services8.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title}`}>
 										<h5 className="text_lg pt_10">
@@ -247,7 +252,7 @@ export default function ServicesPage() {
 										</h5>
 									</div>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Services9.src} className="img-responsive" alt="Industry1" />
 									<div className={`${styles.title}`}>
 										<h5 className="text_lg pt_10">

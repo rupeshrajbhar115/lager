@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 // MODULES //
 
 // COMPONENTS //
@@ -33,7 +34,7 @@ export default function Our() {
 								requirements of our clients. We provide high-end customised services to
 								all major OEMS.
 							</p>
-							<a href="#">
+							<a href="/industry">
 								<PrimaryButton download={download_img.src} title="Know More" />
 							</a>
 						</div>
@@ -46,7 +47,7 @@ export default function Our() {
 								The replacement of ball bearings is part of typical maintenance
 								schedules. We provide high-end customised services to all major MROs.
 							</p>
-							<a href="#">
+							<a href="/industryMRO">
 								<PrimaryButton download={download_img.src} title="Know More" />
 							</a>
 						</div>

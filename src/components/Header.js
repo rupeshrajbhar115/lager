@@ -115,23 +115,33 @@ const Header = () => {
 							</div>
 							<ul className={`${styles.list_ul}`}>
 								<li onClick={() => setSidebarActive(!sidebarActive)}>
-									<Link href="/">
+									<Link href="/about">
 										<a className="text_lg l_r">About Us</a>
 									</Link>
 								</li>
 								<li onClick={() => setSidebarActive(!sidebarActive)}>
-									<Link href="/">
+									<Link href="/product/industrial-bearings">
 										<a className="text_lg l_r">Our Products</a>
 									</Link>
 								</li>
 								<li onClick={() => setSidebarActive(!sidebarActive)}>
-									<Link href="/">
+									<Link href="/industry">
 										<a className="text_lg l_r">Industrial Solutions</a>
 									</Link>
 								</li>
 								<li onClick={() => setSidebarActive(!sidebarActive)}>
-									<Link href="/">
+									<Link href="/services">
 										<a className="text_lg l_r">Service Support</a>
+									</Link>
+								</li>
+								<li onClick={() => setSidebarActive(!sidebarActive)}>
+									<Link href="/production">
+										<a className="text_lg l_r">Production</a>
+									</Link>
+								</li>
+								<li onClick={() => setSidebarActive(!sidebarActive)}>
+									<Link href="/contact-us">
+										<a className="text_lg l_r">Contact Us</a>
 									</Link>
 								</li>
 							</ul>

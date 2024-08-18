@@ -9,6 +9,7 @@ import styles from "@/styles/sections/banner.module.scss";
 
 // IMAGES //
 import Down from "../../public/img/home/down.svg";
+import BannerImg from "../../public/img/industry/banner.jpg";
 
 // UTILS //
 
@@ -24,7 +25,7 @@ export default function Banner() {
 					</div>
 				</div>
 				<div className={`${styles.video}`}>
-					<video
+					{/* <video
 						playsInline
 						autoPlay
 						loop
@@ -38,7 +39,10 @@ export default function Banner() {
 							}
 							type="video/mp4"
 						/>
-					</video>
+					</video> */}
+					<div className={`${styles.banner_img}`}>
+						<img src={BannerImg.src} className="img-responsive" alt="Down Arrow" />
+					</div>
 				</div>
 			</div>
 			<div

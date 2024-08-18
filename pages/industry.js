@@ -56,56 +56,59 @@ export default function IndustryPage() {
 						<BreadCrumb breadcrumbData={breadcrumbData} />
 					</div>
 					<img src={Banner.src} className={`${styles.banner_img} img-responsive`} />
-					<div className={`${styles.banner_title}`}>
+					<div className={`${styles.banner_title} toTop`} data-scroll>
 						<h2 className="text_xxl">OEM Solutions</h2>
 					</div>
 				</section>
 				<section>
 					<div className="container">
 						<div className={`${styles.industry}`}>
-							<p className={`${styles.industry_para_info} text_xl ptb_50`}>
+							<p
+								className={`${styles.industry_para_info} text_xl ptb_50 toTop`}
+								data-scroll
+							>
 								We engineer processes, services and designing support tailored to the
 								requirements of our clients. We provide high-end customised services to
 								all major OEMS.
 							</p>
 							<div className={`${styles.industry_cart_item} pt_20 pb_60`}>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry1.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Packing Industry</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry2.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Gearboxes & Drivers</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry3.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Cement Industry</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry4.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Oil & Gas</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry5.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Heavy Lifting</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry6.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Construction Equipmet</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry7.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Compressor & Pumps</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry8.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Agriculture & machinery</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry9.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Paper Machinery</h5>
 								</div>
-								<div className={`${styles.cart_item}`}>
+								<div className={`${styles.cart_item} toTop`} data-scroll>
 									<img src={Industry10.src} className="img-responsive" alt="Industry1" />
 									<h5 className="text_lg pt_10">Steel Industry</h5>
 								</div>
