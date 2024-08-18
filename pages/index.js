@@ -31,6 +31,7 @@ import industrialBearings from "../public/img/home/industrial_bearings.png";
 import automotiveBearings from "../public/img/home/automotive_bearings.png";
 import oilSeals from "../public/img/home/oil_seals.png";
 import download_img from "../public/img/home/btn_arrow.svg";
+import Link from "next/link";
 
 // DATA //
 
@@ -278,9 +279,11 @@ export default function HomePage() {
 								bearings that keep your world smooth.
 							</h2>
 							<div className={`${styles.btn_section} pt_50 toTop`} data-scroll>
-								<a href="/production">
-									<PrimaryButton download={download_img.src} title="Know More" />
-								</a>
+								<Link href="/production">
+									<a>
+										<PrimaryButton download={download_img.src} title="Know More" />
+									</a>
+								</Link>
 							</div>
 						</div>
 					</div>
