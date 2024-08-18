@@ -165,17 +165,18 @@ export default function ProductPage() {
 						<div className={`${styles.ball_bearings_section} ptb_80`}>
 							<div className={`${styles.ball_bearings_info} toTop`} data-scroll>
 								<h5>Ball Bearings</h5>
-								<h2>Thrust Ball Bearings</h2>
+								<h2>Self Aligning Ball Bearings</h2>
 								<p>
-									SKF thrust ball bearings are manufactured as single direction or double
-									direction thrust ball bearings. They are designed to accommodate axial
-									loads only and must not be subjected to any radial load.
+									Self-aligning ball bearings have two rows of balls, a common sphered
+									raceway in the outer ring and two deep uninterrupted raceway grooves in
+									the inner ring. They are available open or sealed. The bearings are
+									insensitive to angular misalignment of the shaft relative to the
+									housing, which can be caused, for example, by shaft deflection.
 								</p>
 								<h6>
-									Lager produces a wide range of standard and custom designs for special
-									application requirements. This assortment includes bearings with Solid
-									Oil and NoWear coated bearings.
-									<br /> Series – 511 , 512 , 513 , 514.
+									Lager produces a wide range of standard and custom designs to offer
+									advantages for applications with specific performance needs.
+									<br /> Series – 12, 13, 22, 23.
 								</h6>
 								<div className={`${styles.btn_section} pt_20`}>
 									<div className={`${styles.btn}`}>
@@ -204,20 +205,27 @@ export default function ProductPage() {
 						<div className={`${styles.features_section} toTop`} data-scroll>
 							<h2>Features</h2>
 							<p>
-								LAGER thrust ball bearings are design to accommodate large axial load,
-								however they must not be subjected to radial load. Most frequent
-								bearings are single direction thrust ball bearings. During operation
-								these bearings must be constantly subjected to a specific axial load.
-								These bearings can be also combined with spherical rings to cope with
-								small initial misalignments.
+								LAGER recommends Self-Aligning Ball Bearings when the alignment of the
+								shaft and housing is problematic and the shaft may bend. The outer ring
+								has a spherical raceway and its center of curvature coincides with that
+								of the bearing; therefore, the axis of the inner ring, balls and cage
+								can deflect to some extent around the bearing center.
 							</p>
 							<ul>
 								<li>
-									With single and double direction types, they can meet high axial loads
-									from one or both directions.
+									Thanks to its spherical structure, it can respond to axis misalignments
+									up to ± 4 °.
 								</li>
-								<li>Low to medium speed ratings</li>
-								<li>Standard: DIN 616, DIN 711, DIN 715</li>
+								<li>
+									Excellent alignment compensation due to the spherical outer ring
+									raceway
+								</li>
+								<li>Suitable for low to medium radial loads and low thrust loads</li>
+								<li>
+									Available in open and sealed versions, as well as in tapered bore
+									(suffix K)
+								</li>
+								<li>Standard: DIN 616, DIN 630</li>
 							</ul>
 						</div>
 					</div>

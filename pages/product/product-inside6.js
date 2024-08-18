@@ -165,17 +165,16 @@ export default function ProductPage() {
 						<div className={`${styles.ball_bearings_section} ptb_80`}>
 							<div className={`${styles.ball_bearings_info} toTop`} data-scroll>
 								<h5>Ball Bearings</h5>
-								<h2>Thrust Ball Bearings</h2>
+								<h2>Small and Miniature ball bearings</h2>
 								<p>
-									SKF thrust ball bearings are manufactured as single direction or double
-									direction thrust ball bearings. They are designed to accommodate axial
-									loads only and must not be subjected to any radial load.
+									The most widely used bearing type and are particularly versatile. They
+									have low friction and are optimised for low noise and low vibration
+									which enables high rotational speeds.
 								</p>
 								<h6>
-									Lager produces a wide range of standard and custom designs for special
-									application requirements. This assortment includes bearings with Solid
-									Oil and NoWear coated bearings.
-									<br /> Series – 511 , 512 , 513 , 514.
+									Lager produces a wide range of standard and custom designs to offer
+									advantages for applications with specific performance needs. Deep
+									Groove Ball Bearings Series – 60, 62, 63, 64, 622, 623, 160, 618, 619.
 								</h6>
 								<div className={`${styles.btn_section} pt_20`}>
 									<div className={`${styles.btn}`}>
@@ -204,20 +203,34 @@ export default function ProductPage() {
 						<div className={`${styles.features_section} toTop`} data-scroll>
 							<h2>Features</h2>
 							<p>
-								LAGER thrust ball bearings are design to accommodate large axial load,
-								however they must not be subjected to radial load. Most frequent
-								bearings are single direction thrust ball bearings. During operation
-								these bearings must be constantly subjected to a specific axial load.
-								These bearings can be also combined with spherical rings to cope with
-								small initial misalignments.
+								Single row deep groove ball bearings are the most frequently used
+								bearing type. They are versatile, self-retaining bearings with solid
+								outer rings, inner rings and ball and cage assemblies. Due to their low
+								frictional torque, they are suitable for high and even very high speeds
+								and are robust in operation, with little maintenance. Due to the raceway
+								geometry and the balls used as rolling elements, deep groove ball
+								bearings can support relatively high radial loads, as well as small
+								axial loads.
 							</p>
 							<ul>
 								<li>
-									With single and double direction types, they can meet high axial loads
-									from one or both directions.
+									It is suitable for radial and axial loads in both directions and high
+									speed conditions.
 								</li>
-								<li>Low to medium speed ratings</li>
-								<li>Standard: DIN 616, DIN 711, DIN 715</li>
+								<li>Improved cover design with low friction and quiet operation.</li>
+								<li>
+									It has a longer service life thanks to its high temperature resistant
+									and long life grease.
+								</li>
+								<li>
+									Various seals and grease variants available for different operating
+									conditions
+								</li>
+								<li>
+									Numerous clearance and tolerance classes available for different
+									operating conditions
+								</li>
+								<li>Standard: DIN 625</li>
 							</ul>
 						</div>
 					</div>

@@ -491,7 +491,7 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Small and Miniature ball bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a>
+														<Link href="/product/product-inside6">
 															<a>
 																<PrimaryButton
 																	download={BtnArrow.src}
@@ -499,7 +499,7 @@ export default function ProductListingPage() {
 																	smallarrow
 																/>
 															</a>
-														</a>
+														</Link>
 														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
@@ -519,7 +519,7 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Self Aligning Ball Bearings</h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a>
+														<Link href="/product/product-inside7">
 															<a>
 																<PrimaryButton
 																	download={BtnArrow.src}
@@ -527,7 +527,7 @@ export default function ProductListingPage() {
 																	smallarrow
 																/>
 															</a>
-														</a>
+														</Link>
 														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
@@ -547,7 +547,7 @@ export default function ProductListingPage() {
 													</div>
 													<h6>Double Row Deep Groove Ball Beairngs </h6>
 													<div className={`${styles.btn_section} pt_20`}>
-														<a>
+														<Link href="/product/product-inside8">
 															<a>
 																<PrimaryButton
 																	download={BtnArrow.src}
@@ -555,7 +555,7 @@ export default function ProductListingPage() {
 																	smallarrow
 																/>
 															</a>
-														</a>
+														</Link>
 														{/* <a>
 															<PrimaryButton
 																download={download_img.src}
