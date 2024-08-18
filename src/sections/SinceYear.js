@@ -13,6 +13,7 @@ import download_img from "../../public/img/home/btn_arrow.svg";
 
 // STYLES //
 import styles from "@/styles/sections/Since.module.scss";
+import Link from "next/link";
 
 /** Since Component */
 export default function SinceYear() {
@@ -27,9 +28,11 @@ export default function SinceYear() {
 								Imagine a <br />
 								frictionless world -
 							</div>
-							<a href="/about">
-								<PrimaryButton download={download_img.src} title="Know More" />
-							</a>
+							<Link href="/about">
+								<a>
+									<PrimaryButton download={download_img.src} title="Know More" />
+								</a>
+							</Link>
 						</div>
 						<div className={`${styles.right_box} toTop`} data-scroll>
 							<p className="text_reg toTop" data-scroll>
