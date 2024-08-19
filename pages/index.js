@@ -26,7 +26,7 @@ import BrochureDownload from "../src/sections/Brochure";
 import styles from "@/styles/pages/Home.module.scss";
 
 // IMAGES //
-import imageBg from "../public/img/home/bg_img.jpg";
+import imageBg from "../public/img/home/bg_img.jpeg";
 import industrialBearings from "../public/img/home/industrial_bearings.png";
 import automotiveBearings from "../public/img/home/automotive_bearings.png";
 import oilSeals from "../public/img/home/oil_seals.png";
