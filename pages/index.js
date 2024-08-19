@@ -50,7 +50,7 @@ export default function HomePage() {
 		/** bearingsAnimation Animaction */
 		bearingsAnimation
 			.to(".circle_animaction", {
-				rotation: 265,
+				rotation: -240,
 				duration: 50,
 				ease: "none", // Smooth, continuous rotation
 			})
@@ -72,19 +72,19 @@ export default function HomePage() {
 
 						if (progress >= 0 && progress <= 0.34) {
 							// Show bearings_text_1
-							gsap.to(".bearings_text_1", { opacity: 1 });
-							gsap.to(".bearings_text_2", { opacity: 0 });
-							gsap.to(".bearings_text_3", { opacity: 0 });
+							gsap.to(".bearings_text_1", { opacity: 1, zIndex: 2 });
+							gsap.to(".bearings_text_2", { opacity: 0, zIndex: 0 });
+							gsap.to(".bearings_text_3", { opacity: 0, zIndex: 0 });
 						} else if (progress > 0.34 && progress <= 0.66) {
 							// Show bearings_text_2
-							gsap.to(".bearings_text_1", { opacity: 0 });
-							gsap.to(".bearings_text_2", { opacity: 1 });
-							gsap.to(".bearings_text_3", { opacity: 0 });
+							gsap.to(".bearings_text_1", { opacity: 0, zIndex: 0 });
+							gsap.to(".bearings_text_2", { opacity: 1, zIndex: 2 });
+							gsap.to(".bearings_text_3", { opacity: 0, zIndex: 0 });
 						} else if (progress > 0.66) {
 							// Show bearings_text_3
-							gsap.to(".bearings_text_1", { opacity: 0 });
-							gsap.to(".bearings_text_2", { opacity: 0 });
-							gsap.to(".bearings_text_3", { opacity: 1 });
+							gsap.to(".bearings_text_1", { opacity: 0, zIndex: 0 });
+							gsap.to(".bearings_text_2", { opacity: 0, zIndex: 0 });
+							gsap.to(".bearings_text_3", { opacity: 1, zIndex: 2 });
 						}
 					},
 				},
@@ -235,9 +235,11 @@ export default function HomePage() {
 								<h4 className="text_lg pb_20">
 									Best-in-class bearings for all your industrial needs.
 								</h4>
-								<a href="#">
-									<PrimaryButton download={download_img.src} title="Know More" />
-								</a>
+								<Link href="/product/industrial-bearings">
+									<a>
+										<PrimaryButton download={download_img.src} title="Know More" />
+									</a>
+								</Link>
 							</div>
 							<div className={`${styles.bearings_text_1} bearings_text_2`}>
 								{/* <p className="text_reg">Products</p> */}

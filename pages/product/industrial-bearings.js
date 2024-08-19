@@ -23,14 +23,13 @@ import styles from "@/styles/pages/product-listing-page.module.scss";
 
 import BtnArrow from "../../public/img/home/btn_arrow.svg";
 import download_img from "../../public/img/home/download.svg";
-import BallBearings1 from "../../public/img//listing_page/ball_bearings_1.png";
-import BallBearings2 from "../../public/img//listing_page/ball_bearings_2.png";
-import BallBearings3 from "../../public/img//listing_page/ball_bearings_3.png";
-import BallBearings4 from "../../public/img//listing_page/ball_bearings_4.png";
-import BallBearings5 from "../../public/img//listing_page/ball_bearings_5.png";
-import BallBearings6 from "../../public/img//listing_page/ball_bearings_6.png";
-import BallBearings7 from "../../public/img//listing_page/ball_bearings_7.png";
-import BallBearings8 from "../../public/img//listing_page/ball_bearings_8.png";
+import BallBearings1 from "../../public/img/listing_page/Deep.png";
+import BallBearings2 from "../../public/img/listing_page/Angular.png";
+import BallBearings4 from "../../public/img/listing_page/Thrust.png";
+import BallBearings5 from "../../public/img/listing_page/Super.png";
+import BallBearings6 from "../../public/img/listing_page/Small.png";
+import BallBearings7 from "../../public/img/listing_page/Self.png";
+import BallBearings8 from "../../public/img/listing_page/Double.png";
 
 // DATA //
 
@@ -397,7 +396,7 @@ export default function ProductListingPage() {
 														</a> */}
 													</div>
 												</div>
-												<div className={`${styles.product_box}`}>
+												{/* <div className={`${styles.product_box}`}>
 													<div className={`${styles.product_img}`}>
 														<img
 															src={BallBearings3.src}
@@ -416,15 +415,8 @@ export default function ProductListingPage() {
 																/>
 															</a>
 														</Link>
-														{/* <a>
-															<PrimaryButton
-																download={download_img.src}
-																smallarrow
-																withoutAnimaction
-															/>
-														</a> */}
 													</div>
-												</div>
+												</div> */}
 												<div className={`${styles.product_box}`}>
 													<div className={`${styles.product_img}`}>
 														<img

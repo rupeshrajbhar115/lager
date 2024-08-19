@@ -11,6 +11,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import PrimaryButton from "../src/components/primary-button";
+
 // SECTIONS //
 
 // PLUGINS //
@@ -23,6 +25,7 @@ import styles from "@/styles/pages/production.module.scss";
 // IMAGES //
 import prev_arrow from "../public/img/arrow_left.png";
 import next_arrow from "../public/img/arrow_right.png";
+import BtnArrow from "../public/img/home/btn_arrow.svg";
 import Banner from "../public/img/production/banner.jpg";
 import ResearchImg from "../public/img/production/research_img.jpg";
 import ProcessImg1 from "../public/img/production/process_img_1.jpg";
@@ -47,6 +50,7 @@ import Industry10 from "../public/img/production/industry10.jpg";
 
 import QualityImg1 from "../public/img/production/quality_img_1.jpg";
 import QualityImg2 from "../public/img/production/quality_img_2.jpg";
+import Link from "next/link";
 
 // DATA //
 
@@ -379,7 +383,7 @@ export default function ProductionPage() {
 									and employ online data collection and measurement for fast,
 									energy-saving, and safe operations.
 								</p>
-								<p className="text_reg toTop" data-scroll>
+								<p className="text_reg toTop pb_20" data-scroll>
 									Our enclosed and air-conditioned workshop employs oil mist dust
 									collection, promoting a clean environment. With self-processed
 									spherical, cylindrical, and tapered rollers, we prioritise security,
@@ -389,6 +393,11 @@ export default function ProductionPage() {
 									time, competitive pricing, and overall cost-performance maximises
 									customer value.
 								</p>
+								<Link href="#">
+									<a>
+										<PrimaryButton download={BtnArrow.src} title=" Read More" />
+									</a>
+								</Link>
 							</div>
 						</div>
 					</div>

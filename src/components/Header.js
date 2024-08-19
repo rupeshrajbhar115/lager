@@ -240,7 +240,12 @@ const Header = () => {
 								</li>
 								<li onClick={() => setSidebarActive(!sidebarActive)}>
 									<Link href="/industry">
-										<a className="text_lg l_r">Industrial Solutions</a>
+										<a className="text_lg l_r">OEM Solution</a>
+									</Link>
+								</li>
+								<li onClick={() => setSidebarActive(!sidebarActive)}>
+									<Link href="/industryMRO">
+										<a className="text_lg l_r">MRO Solution</a>
 									</Link>
 								</li>
 								<li onClick={() => setSidebarActive(!sidebarActive)}>

@@ -27,7 +27,7 @@ import styles from "@/styles/pages/product.module.scss";
 import prev_arrow from "../../public/img/arrow_left.png";
 import next_arrow from "../../public/img/arrow_right.png";
 import BtnArrow from "../../public/img/home/btn_arrow.svg";
-import Bearings from "../../public/img/product/bearing.png";
+import BearingsDeep from "../../public/img/product/bearing.png";
 import DownloadImg from "../../public/img/home/download.svg";
 import Industry1 from "../../public/img/product/industry1.jpg";
 import Industry2 from "../../public/img/product/industry2.jpg";
@@ -195,7 +195,7 @@ export default function ProductPage() {
 								</div>
 							</div>
 							<div className={`${styles.ball_bearings_img} toTop`} data-scroll>
-								<img src={Bearings.src} className="img-responsive" />
+								<img src={BearingsDeep.src} className="img-responsive" />
 							</div>
 						</div>
 					</div>
