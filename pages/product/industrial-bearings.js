@@ -78,22 +78,22 @@ export default function ProductListingPage() {
 								>
 									Industrial Bearings
 								</div>
-								{/* <div
+								<div
 									className={`${styles.tab_button} ${
 										activeTab === "tab2" ? "active_tab" : ""
 									}`}
 									onClick={() => setActiveTab("tab2")}
 								>
 									Automotive Bearings
-								</div> */}
-								{/* <div
+								</div>
+								<div
 									className={`${styles.tab_button} ${
 										activeTab === "tab3" ? "active_tab" : ""
 									}`}
 									onClick={() => setActiveTab("tab3")}
 								>
 									Oil Seals
-								</div> */}
+								</div>
 							</div>
 						</div>
 						<h6 className={`${styles.sub_titlt} text_xl pb_50`}>
@@ -318,19 +318,20 @@ export default function ProductListingPage() {
 												</div>
 											</div>
 										</div>
-										<div className={`${styles.accordion_info}`}>
-											<h2 className="text_xxl">Ball Bearings</h2>
-											<div className={`${styles.para_btn} pt_20 pb_40`}>
-												<div className={`${styles.para}`}>
-													<p className="text_reg">
-														Ball Bearings use balls as rolling elements. They are
-														characterised by point contact between the balls and the raceways.
-														As a rule, ball bearings can rotate very quickly but cannot
-														support substantial loads.
-													</p>
-													production{" "}
-												</div>
-												{/* <div className={`${styles.btn}`}>
+										{activeIndex === 0 && (
+											<div className={`${styles.accordion_info}`}>
+												<h2 className="text_xxl">Ball Bearings</h2>
+												<div className={`${styles.para_btn} pt_20 pb_40`}>
+													<div className={`${styles.para}`}>
+														<p className="text_reg">
+															Ball Bearings use balls as rolling elements. They are
+															characterised by point contact between the balls and the
+															raceways. As a rule, ball bearings can rotate very quickly but
+															cannot support substantial loads.
+														</p>
+														production{" "}
+													</div>
+													{/* <div className={`${styles.btn}`}>
 													<a>
 														<PrimaryButton
 															download={download_img.src}
@@ -338,65 +339,65 @@ export default function ProductListingPage() {
 														/>
 													</a>
 												</div> */}
-											</div>
-											<div className={`${styles.product_section}`}>
-												<div className={`${styles.product_box}`}>
-													<div className={`${styles.product_img}`}>
-														<img
-															src={BallBearings1.src}
-															className="img-responsive"
-															alt="BallBearings1"
-														/>
-													</div>
-													<h6>Deep Groove Ball Bearings</h6>
-													<div className={`${styles.btn_section} pt_20`}>
-														<Link href="/product/product-inside1">
-															<a>
-																<PrimaryButton
-																	download={BtnArrow.src}
-																	withoutAnimaction
-																	smallarrow
-																/>
-															</a>
-														</Link>
-														{/* <a>
+												</div>
+												<div className={`${styles.product_section}`}>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings1.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Deep Groove Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside1">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																withoutAnimaction
 																smallarrow
 															/>
 														</a> */}
+														</div>
 													</div>
-												</div>
-												<div className={`${styles.product_box}`}>
-													<div className={`${styles.product_img}`}>
-														<img
-															src={BallBearings2.src}
-															className="img-responsive"
-															alt="BallBearings1"
-														/>
-													</div>
-													<h6>Single & Double Row Angular Contact Ball Bearings</h6>
-													<div className={`${styles.btn_section} pt_20`}>
-														<Link href="/product/product-inside2">
-															<a>
-																<PrimaryButton
-																	download={BtnArrow.src}
-																	withoutAnimaction
-																	smallarrow
-																/>
-															</a>
-														</Link>
-														{/* <a>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings2.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Single & Double Row Angular Contact Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside2">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
 														</a> */}
+														</div>
 													</div>
-												</div>
-												{/* <div className={`${styles.product_box}`}>
+													{/* <div className={`${styles.product_box}`}>
 													<div className={`${styles.product_img}`}>
 														<img
 															src={BallBearings3.src}
@@ -417,160 +418,798 @@ export default function ProductListingPage() {
 														</Link>
 													</div>
 												</div> */}
-												<div className={`${styles.product_box}`}>
-													<div className={`${styles.product_img}`}>
-														<img
-															src={BallBearings4.src}
-															className="img-responsive"
-															alt="BallBearings1"
-														/>
-													</div>
-													<h6>Thrust Ball Bearings</h6>
-													<div className={`${styles.btn_section} pt_20`}>
-														<Link href="/product/product-inside4">
-															<a>
-																<PrimaryButton
-																	download={BtnArrow.src}
-																	withoutAnimaction
-																	smallarrow
-																/>
-															</a>
-														</Link>
-														{/* <a>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings4.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Thrust Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside4">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
 														</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings5.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Super Precision Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside5">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+															<PrimaryButton
+																download={download_img.src}
+																smallarrow
+																withoutAnimaction
+															/>
+														</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings6.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Small and Miniature ball bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside6">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+															<PrimaryButton
+																download={download_img.src}
+																smallarrow
+																withoutAnimaction
+															/>
+														</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings7.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Self Aligning Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside7">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+															<PrimaryButton
+																download={download_img.src}
+																smallarrow
+																withoutAnimaction
+															/>
+														</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings8.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Double Row Deep Groove Ball Beairngs </h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside8">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+															<PrimaryButton
+																download={download_img.src}
+																smallarrow
+																withoutAnimaction
+															/>
+														</a> */}
+														</div>
 													</div>
 												</div>
-												<div className={`${styles.product_box}`}>
-													<div className={`${styles.product_img}`}>
-														<img
-															src={BallBearings5.src}
-															className="img-responsive"
-															alt="BallBearings1"
-														/>
+											</div>
+										)}
+										{activeIndex === 1 && (
+											<div className={`${styles.accordion_info}`}>
+												<h2 className="text_xxl">Ball Bearings</h2>
+												<div className={`${styles.para_btn} pt_20 pb_40`}>
+													<div className={`${styles.para}`}>
+														<p className="text_reg">
+															Ball Bearings use balls as rolling elements. They are
+															characterised by point contact between the balls and the
+															raceways. As a rule, ball bearings can rotate very quickly but
+															cannot support substantial loads.
+														</p>
+														production{" "}
 													</div>
-													<h6>Super Precision Ball Bearings</h6>
-													<div className={`${styles.btn_section} pt_20`}>
-														<Link href="/product/product-inside5">
-															<a>
-																<PrimaryButton
-																	download={BtnArrow.src}
-																	withoutAnimaction
-																	smallarrow
-																/>
-															</a>
-														</Link>
-														{/* <a>
+													{/* <div className={`${styles.btn}`}>
+													<a>
+														<PrimaryButton
+															download={download_img.src}
+															title="Download Catalogue"
+														/>
+													</a>
+												</div> */}
+												</div>
+												<div className={`${styles.product_section}`}>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings1.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Deep Groove Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside1">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+															<PrimaryButton
+																download={download_img.src}
+																withoutAnimaction
+																smallarrow
+															/>
+														</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings2.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Single & Double Row Angular Contact Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside2">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
 															<PrimaryButton
 																download={download_img.src}
 																smallarrow
 																withoutAnimaction
 															/>
 														</a> */}
+														</div>
 													</div>
 												</div>
-												<div className={`${styles.product_box}`}>
-													<div className={`${styles.product_img}`}>
-														<img
-															src={BallBearings6.src}
-															className="img-responsive"
-															alt="BallBearings1"
-														/>
+											</div>
+										)}
+									</div>
+								)}
+								{activeTab === "tab2" && (
+									<div className={`${styles.accordion_section}`}>
+										<div className={`${styles.accordion}`}>
+											<div className="accordion">
+												{/* Accordion Item 1 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(0)}>
+														<h2 className={`add_dots ${activeIndex === 0 ? "active" : ""}`}>
+															Automotive Bearings
+														</h2>
 													</div>
-													<h6>Small and Miniature ball bearings</h6>
-													<div className={`${styles.btn_section} pt_20`}>
-														<Link href="/product/product-inside6">
-															<a>
-																<PrimaryButton
-																	download={BtnArrow.src}
-																	withoutAnimaction
-																	smallarrow
-																/>
-															</a>
-														</Link>
-														{/* <a>
-															<PrimaryButton
-																download={download_img.src}
-																smallarrow
-																withoutAnimaction
-															/>
-														</a> */}
-													</div>
-												</div>
-												<div className={`${styles.product_box}`}>
-													<div className={`${styles.product_img}`}>
-														<img
-															src={BallBearings7.src}
-															className="img-responsive"
-															alt="BallBearings1"
-														/>
-													</div>
-													<h6>Self Aligning Ball Bearings</h6>
-													<div className={`${styles.btn_section} pt_20`}>
-														<Link href="/product/product-inside7">
-															<a>
-																<PrimaryButton
-																	download={BtnArrow.src}
-																	withoutAnimaction
-																	smallarrow
-																/>
-															</a>
-														</Link>
-														{/* <a>
-															<PrimaryButton
-																download={download_img.src}
-																smallarrow
-																withoutAnimaction
-															/>
-														</a> */}
+													<div
+														className={`accordion-content ${
+															activeIndex === 0 ? "active" : ""
+														}`}
+													>
+														<p>Deep Groove Ball Bearings</p>
+														<p>Single & Double Row Angular Contact Ball Bearings</p>
+														<p>Spherical Ball Bearings</p>
+														<p>Thrust Ball Bearings</p>
+														<p>Super Precision Ball Bearings</p>
+														<p>Small and Miniature ball bearings</p>
+														<p>DSelf Aligning Ball Bearingseep</p>
+														<p>Double Row Beairngs Deep Groove Ball Beairngs </p>
 													</div>
 												</div>
-												<div className={`${styles.product_box}`}>
-													<div className={`${styles.product_img}`}>
-														<img
-															src={BallBearings8.src}
-															className="img-responsive"
-															alt="BallBearings1"
-														/>
+
+												{/* Accordion Item 2 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(1)}>
+														<h2 className={`add_dots ${activeIndex === 1 ? "active" : ""}`}>
+															Roller Bearings
+														</h2>
 													</div>
-													<h6>Double Row Deep Groove Ball Beairngs </h6>
-													<div className={`${styles.btn_section} pt_20`}>
-														<Link href="/product/product-inside8">
-															<a>
-																<PrimaryButton
-																	download={BtnArrow.src}
-																	withoutAnimaction
-																	smallarrow
-																/>
-															</a>
-														</Link>
-														{/* <a>
-															<PrimaryButton
-																download={download_img.src}
-																smallarrow
-																withoutAnimaction
-															/>
-														</a> */}
+													<div
+														className={`accordion-content ${
+															activeIndex === 1 ? "active" : ""
+														}`}
+													>
+														<p>Spherical Roller Bearings</p>
+														<p>Cylindrical Roller Bearings</p>
+														<p>Tapered Roller Bearings</p>
+														<p>Super Precision Roller Bearings</p>
+														<p>Thrust Roller Bearings</p>
+														<p>Needle Roller Bearings</p>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div>
-								)}
-								{activeTab === "tab2" && (
-									<div className="tab-pane">
-										<h2>Content for Tab 2</h2>
-										<p>This is the content for Tab 2.</p>
+										{activeIndex === 0 && (
+											<div className={`${styles.accordion_info}`}>
+												<h2 className="text_xxl">Ball Bearings</h2>
+												<div className={`${styles.para_btn} pt_20 pb_40`}>
+													<div className={`${styles.para}`}>
+														<p className="text_reg">
+															Ball Bearings use balls as rolling elements. They are
+															characterised by point contact between the balls and the
+															raceways. As a rule, ball bearings can rotate very quickly but
+															cannot support substantial loads.
+														</p>
+														production{" "}
+													</div>
+													{/* <div className={`${styles.btn}`}>
+												<a>
+													<PrimaryButton
+														download={download_img.src}
+														title="Download Catalogue"
+													/>
+												</a>
+											</div> */}
+												</div>
+												<div className={`${styles.product_section}`}>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings1.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Deep Groove Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside1">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+														<PrimaryButton
+															download={download_img.src}
+															withoutAnimaction
+															smallarrow
+														/>
+													</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings2.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Single & Double Row Angular Contact Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside2">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+														<PrimaryButton
+															download={download_img.src}
+															smallarrow
+															withoutAnimaction
+														/>
+													</a> */}
+														</div>
+													</div>
+													{/* <div className={`${styles.product_box}`}>
+												<div className={`${styles.product_img}`}>
+													<img
+														src={BallBearings3.src}
+														className="img-responsive"
+														alt="BallBearings1"
+													/>
+												</div>
+												<h6>Spherical Ball Bearings</h6>
+												<div className={`${styles.btn_section} pt_20`}>
+													<Link href="/product/product-inside3">
+														<a>
+															<PrimaryButton
+																download={BtnArrow.src}
+																withoutAnimaction
+																smallarrow
+															/>
+														</a>
+													</Link>
+												</div>
+											</div> */}
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings4.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Thrust Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside4">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+														<PrimaryButton
+															download={download_img.src}
+															smallarrow
+															withoutAnimaction
+														/>
+													</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings5.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Super Precision Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside5">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+														<PrimaryButton
+															download={download_img.src}
+															smallarrow
+															withoutAnimaction
+														/>
+													</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings6.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Small and Miniature ball bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside6">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+														<PrimaryButton
+															download={download_img.src}
+															smallarrow
+															withoutAnimaction
+														/>
+													</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings7.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Self Aligning Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside7">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+														<PrimaryButton
+															download={download_img.src}
+															smallarrow
+															withoutAnimaction
+														/>
+													</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings8.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Double Row Deep Groove Ball Beairngs </h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside8">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+														<PrimaryButton
+															download={download_img.src}
+															smallarrow
+															withoutAnimaction
+														/>
+													</a> */}
+														</div>
+													</div>
+												</div>
+											</div>
+										)}
 									</div>
 								)}
 								{activeTab === "tab3" && (
-									<div className="tab-pane">
-										<h2>Content for Tab 3</h2>
-										<p>This is the content for Tab 3.</p>
+									<div className={`${styles.accordion_section}`}>
+										<div className={`${styles.accordion}`}>
+											<div className="accordion">
+												{/* Accordion Item 1 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(0)}>
+														<h2 className={`add_dots ${activeIndex === 0 ? "active" : ""}`}>
+															Ball Bearings
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 0 ? "active" : ""
+														}`}
+													>
+														<p>Deep Groove Ball Bearings</p>
+														<p>Single & Double Row Angular Contact Ball Bearings</p>
+														<p>Spherical Ball Bearings</p>
+														<p>Thrust Ball Bearings</p>
+														<p>Super Precision Ball Bearings</p>
+														<p>Small and Miniature ball bearings</p>
+														<p>DSelf Aligning Ball Bearingseep</p>
+														<p>Double Row Beairngs Deep Groove Ball Beairngs </p>
+													</div>
+												</div>
+
+												{/* Accordion Item 2 */}
+												<div className="accordion-item">
+													<div className="accordion-header" onClick={() => handleToggle(1)}>
+														<h2 className={`add_dots ${activeIndex === 1 ? "active" : ""}`}>
+															Roller Bearings
+														</h2>
+													</div>
+													<div
+														className={`accordion-content ${
+															activeIndex === 1 ? "active" : ""
+														}`}
+													>
+														<p>Spherical Roller Bearings</p>
+														<p>Cylindrical Roller Bearings</p>
+														<p>Tapered Roller Bearings</p>
+														<p>Super Precision Roller Bearings</p>
+														<p>Thrust Roller Bearings</p>
+														<p>Needle Roller Bearings</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										{activeIndex === 0 && (
+											<div className={`${styles.accordion_info}`}>
+												<h2 className="text_xxl">Roller Bearings</h2>
+												<div className={`${styles.para_btn} pt_20 pb_40`}>
+													<div className={`${styles.para}`}>
+														<p className="text_reg">
+															Ball Bearings use balls as rolling elements. They are
+															characterised by point contact between the balls and the
+															raceways. As a rule, ball bearings can rotate very quickly but
+															cannot support substantial loads.
+														</p>
+														production{" "}
+													</div>
+													{/* <div className={`${styles.btn}`}>
+											<a>
+												<PrimaryButton
+													download={download_img.src}
+													title="Download Catalogue"
+												/>
+											</a>
+										</div> */}
+												</div>
+												<div className={`${styles.product_section}`}>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings1.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Deep Groove Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside1">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+													<PrimaryButton
+														download={download_img.src}
+														withoutAnimaction
+														smallarrow
+													/>
+												</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings2.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Single & Double Row Angular Contact Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside2">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+													<PrimaryButton
+														download={download_img.src}
+														smallarrow
+														withoutAnimaction
+													/>
+												</a> */}
+														</div>
+													</div>
+													{/* <div className={`${styles.product_box}`}>
+											<div className={`${styles.product_img}`}>
+												<img
+													src={BallBearings3.src}
+													className="img-responsive"
+													alt="BallBearings1"
+												/>
+											</div>
+											<h6>Spherical Ball Bearings</h6>
+											<div className={`${styles.btn_section} pt_20`}>
+												<Link href="/product/product-inside3">
+													<a>
+														<PrimaryButton
+															download={BtnArrow.src}
+															withoutAnimaction
+															smallarrow
+														/>
+													</a>
+												</Link>
+											</div>
+										</div> */}
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings4.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Thrust Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside4">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+													<PrimaryButton
+														download={download_img.src}
+														smallarrow
+														withoutAnimaction
+													/>
+												</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings5.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Super Precision Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside5">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+															{/* <a>
+													<PrimaryButton
+														download={download_img.src}
+														smallarrow
+														withoutAnimaction
+													/>
+												</a> */}
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings6.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Small and Miniature ball bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside6">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings7.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Self Aligning Ball Bearings</h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside7">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+														</div>
+													</div>
+													<div className={`${styles.product_box}`}>
+														<div className={`${styles.product_img}`}>
+															<img
+																src={BallBearings8.src}
+																className="img-responsive"
+																alt="BallBearings1"
+															/>
+														</div>
+														<h6>Double Row Deep Groove Ball Beairngs </h6>
+														<div className={`${styles.btn_section} pt_20`}>
+															<Link href="/product/product-inside8">
+																<a>
+																	<PrimaryButton
+																		download={BtnArrow.src}
+																		withoutAnimaction
+																		smallarrow
+																	/>
+																</a>
+															</Link>
+														</div>
+													</div>
+												</div>
+											</div>
+										)}
 									</div>
 								)}
 							</div>
