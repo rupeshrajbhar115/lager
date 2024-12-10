@@ -129,7 +129,7 @@ const Header = () => {
 						{isInsidePage &&
 							(isInsidePage ? (
 								<div className={styles.menu_title}>
-									<div className={styles.title}>
+									{/* <div className={styles.title}>
 										<Link href="/img/Lager-Company-Profile.pdf" download>
 											<a target="_blank">
 												<PrimaryButton
@@ -138,7 +138,7 @@ const Header = () => {
 												/>
 											</a>
 										</Link>
-									</div>
+									</div> */}
 									<div
 										onClick={() => setSidebarActive(!sidebarActive)}
 										className={`${styles.humberg_black} ${
@@ -158,7 +158,7 @@ const Header = () => {
 						{isHomePage &&
 							(scroll ? (
 								<div className={styles.menu_title}>
-									<div className={styles.title}>
+									{/* <div className={styles.title}>
 										<Link href="/img/Lager-Company-Profile.pdf" download>
 											<a target="_blank">
 												<PrimaryButton
@@ -167,7 +167,7 @@ const Header = () => {
 												/>
 											</a>
 										</Link>
-									</div>
+									</div> */}
 									<div
 										onClick={() => setSidebarActive(!sidebarActive)}
 										className={`${styles.humberg_black} ${
@@ -183,7 +183,7 @@ const Header = () => {
 								</div>
 							) : (
 								<div className={styles.menu_title}>
-									<div className={styles.title}>
+									{/* <div className={styles.title}>
 										<Link href="/img/Lager-Company-Profile.pdf" download>
 											<a target="_blank">
 												<PrimaryButton
@@ -193,7 +193,7 @@ const Header = () => {
 												/>
 											</a>
 										</Link>
-									</div>
+									</div> */}
 									<div
 										onClick={() => setSidebarActive(!sidebarActive)}
 										className={`${styles.humberg} ${
