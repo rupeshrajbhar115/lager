@@ -23,7 +23,7 @@ import styles from "@/styles/sections/Service.module.scss";
 /** Service Component */
 export default function Service() {
 	return (
-		<div className={`${styles.service} pt_50 pb_100`}>
+		<div className={`${styles.service} ptb_50`}>
 			<div className="container">
 				<div className={`${styles.service_section}`}>
 					<div className="text_xxl pb_30 toTop" data-scroll>

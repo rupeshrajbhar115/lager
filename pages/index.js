@@ -292,7 +292,7 @@ export default function HomePage() {
 				</section>
 				<Our />
 				<Service />
-				<BrochureDownload />
+				{/* <BrochureDownload /> */}
 				<section className={`${styles.address} pb_100 pt_40`}>
 					<div className="container">
 						<div className={`${styles.address_section}`}>

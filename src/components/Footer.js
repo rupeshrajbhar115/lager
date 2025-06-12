@@ -63,13 +63,13 @@ export default function Footer() {
 								</li>
 							</ul>
 						</div>
-						<div className={`${styles.btn}`}>
+						{/* <div className={`${styles.btn}`}>
 							<Link href="/img/Lager-Company-Profile.pdf" download>
 								<a target="_blank">
 									<PrimaryButton download={download_img.src} title="Download Brochure" />
 								</a>
 							</Link>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>
