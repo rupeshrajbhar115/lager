@@ -278,7 +278,7 @@ export default function ServicesPage() {
 				</section>
 				{openPopup === 1 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">Co-engineering activities </h2>
 								<p className="text_reg ptb_20">
@@ -323,7 +323,7 @@ export default function ServicesPage() {
 
 				{openPopup === 2 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">Application engineering</h2>
 								<p className="text_reg ptb_20">
@@ -368,7 +368,7 @@ export default function ServicesPage() {
 
 				{openPopup === 3 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">Advanced calculation capabilities</h2>
 								<p className="text_reg ptb_20">
@@ -413,7 +413,7 @@ export default function ServicesPage() {
 
 				{openPopup === 4 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">Technical training and development</h2>
 								<p className="text_reg ptb_20">
@@ -458,7 +458,7 @@ export default function ServicesPage() {
 
 				{openPopup === 5 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">
 									Innovative solutions / Customised bearing products
@@ -505,7 +505,7 @@ export default function ServicesPage() {
 
 				{openPopup === 6 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">New material coating technology</h2>
 								<p className="text_reg ptb_20">
@@ -550,7 +550,7 @@ export default function ServicesPage() {
 
 				{openPopup === 7 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">Life prediction and application analysis</h2>
 								<p className="text_reg ptb_20">
@@ -595,7 +595,7 @@ export default function ServicesPage() {
 
 				{openPopup === 8 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">Maintenance solutions</h2>
 								<p className="text_reg ptb_20">
@@ -640,7 +640,7 @@ export default function ServicesPage() {
 
 				{openPopup === 9 && (
 					<div className={styles.popup}>
-						<div className={styles.popup_wrapper}>
+						<div className={styles.popup_wrapper} data-lenis-prevent>
 							<div className={styles.popup_content}>
 								<h2 className="text_xxl">Intelligent bearing service</h2>
 								<p className="text_reg ptb_20">

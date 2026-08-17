@@ -55,7 +55,7 @@ export default function ContactPage() {
 							Contact us for any enquiry, support, feedback or friction.
 						</p>
 						<div className={`${styles.contact_section} pb_80`}>
-							<div className={`${styles.contact_info}`}>
+							{/* <div className={`${styles.contact_info}`}>
 								<ul className="pb_40">
 									<li className="pb_10">
 										<img src={Loction.src} className="img-responsive" alt="loaction" />
@@ -80,7 +80,7 @@ export default function ContactPage() {
 										<br /> facilities
 									</li>
 								</ul>
-							</div>
+							</div> */}
 							<div className={`${styles.contact_form}`}>
 								<ul className="pb_30">
 									<li>

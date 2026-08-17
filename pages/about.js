@@ -18,7 +18,7 @@ import BreadCrumb from "../src/components/Breadcrumb";
 import styles from "@/styles/pages/about.module.scss";
 
 // IMAGES //
-import AboutPage from "../public/img/about/about_page.png";
+import AboutPage from "../public/img/about/about_page1.png";
 
 // DATA //
 

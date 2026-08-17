@@ -142,7 +142,7 @@ export default function HomePage() {
 					opacity: 1,
 					duration: 1,
 				},
-				"-=1.5"
+				"-=1.5",
 			) // Adjust this overlap for smooth transition
 			.to(".bearings_img:nth-child(2)", {
 				rotation: 60,
@@ -247,9 +247,9 @@ export default function HomePage() {
 								<h4 className="text_lg pb_20">
 									Smooth movement with the excellence of German technology.
 								</h4>
-								<a href="#">
+								{/* <a href="#">
 									<PrimaryButton download={download_img.src} title="Know More" />
-								</a>
+								</a> */}
 							</div>
 							<div className={`${styles.bearings_text_1} bearings_text_3`}>
 								{/* <p className="text_reg">Products</p> */}
@@ -257,9 +257,9 @@ export default function HomePage() {
 								<h4 className="text_lg pb_20">
 									Compact solutions for high machinery performance.
 								</h4>
-								<a href="#">
+								{/* <a href="#">
 									<PrimaryButton download={download_img.src} title="Know More" />
-								</a>
+								</a> */}
 							</div>
 						</div>
 					</div>
@@ -295,7 +295,7 @@ export default function HomePage() {
 				{/* <BrochureDownload /> */}
 				<section className={`${styles.address} pb_100 pt_40`}>
 					<div className="container">
-						<div className={`${styles.address_section}`}>
+						{/* <div className={`${styles.address_section}`}>
 							<div className={`${styles.address_box} toTop`} data-scroll>
 								<h3 className="text_xl l_s_m pb_10">Lager, Germany</h3>
 								<p className="text_lg l_s_m">
@@ -310,7 +310,7 @@ export default function HomePage() {
 								<h3 className="text_xl l_s_m pb_10">Lager, China</h3>
 								<p className="text_lg l_s_m">P1 & P2 manufacturing facilities</p>
 							</div>
-						</div>
+						</div> */}
 						<div className={`${styles.mail} pt_60 toTop`} data-scroll>
 							<ul>
 								<li className="pb_20">

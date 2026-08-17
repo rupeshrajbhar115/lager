@@ -70,14 +70,14 @@ export default function ProductListingPage() {
 						<h2 className="text_xxl">Multi-dimensional bearing for all Industries</h2>
 						<div className={`${styles.product_tab_btn} ptb_40`}>
 							<div className={`${styles.tab_headers}`}>
-								<div
+								{/* <div
 									className={`${styles.tab_button} ${
 										activeTab === "tab1" ? "active_tab" : ""
 									}`}
 									onClick={() => setActiveTab("tab1")}
 								>
 									Industrial Bearings
-								</div>
+								</div> */}
 								{/* <div
 									className={`${styles.tab_button} ${
 										activeTab === "tab2" ? "active_tab" : ""

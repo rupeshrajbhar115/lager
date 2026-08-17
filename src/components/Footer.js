@@ -58,7 +58,7 @@ export default function Footer() {
 								</li>
 								<li>
 									<Link href="/services" className="text_reg l_r">
-										Contact US
+										Contact Us
 									</Link>
 								</li>
 							</ul>
