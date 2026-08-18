@@ -68,7 +68,7 @@ export default function ProductListingPage() {
 				<section className={`${styles.product_section} pt_50`}>
 					<div className="container">
 						<h2 className="text_xxl">Multi-dimensional bearing for all Industries</h2>
-						<div className={`${styles.product_tab_btn} ptb_40`}>
+						<div className={`${styles.product_tab_btn} ptb_10`}>
 							<div className={`${styles.tab_headers}`}>
 								{/* <div
 									className={`${styles.tab_button} ${

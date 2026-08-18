@@ -180,7 +180,7 @@ export default function ProductPage() {
 								</h6>
 								<div className={`${styles.btn_section} pt_20`}>
 									<div className={`${styles.btn}`}>
-										<a href="#">
+										<a href="/contact-us">
 											<PrimaryButton download={BtnArrow.src} title="Get a Quote" />
 										</a>
 									</div>
